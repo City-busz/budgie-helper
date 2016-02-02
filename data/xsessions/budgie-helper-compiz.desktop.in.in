@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Budgie Helper (Compiz)
+Comment=This session logs you into Budgie Helper with Compiz
+Exec=@libexecdir@/budgie-helper-compiz
+TryExec=compiz
+Type=Application
+DesktopNames=Budgie;GNOME;

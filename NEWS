@@ -95,15 +95,15 @@ Version 3.14.0
   Andika Triwidada (id), Daniel Raab (de), Daniel Mustieles (es),
   Gabor Kelemen (hu), Мирослав Николић (sr), Piotr Drąg (pl)
 
-NOTE: With this version GNOME Flashback will start use GNOME-Flashback as
-desktop name by setting DesktopNames to GNOME-Flashback;GNOME. In all
-applications/modules that are used by GNOME Flashback and is not used by GNOME
-anymore will have ShowOnlyIn set to GNOME-Flashback in .desktop files.
+NOTE: With this version Budgie Helper will start use Budgie as
+desktop name by setting DesktopNames to Budgie;GNOME. In all
+applications/modules that are used by Budgie Helper and is not used by GNOME
+anymore will have ShowOnlyIn set to Budgie in .desktop files.
 
 Version 3.10.0
 ==============
 - Initial version.
-- GNOME Flashback session. Includes sessions with Metacity and Compiz as
+- Budgie Helper session. Includes sessions with Metacity and Compiz as
   window managers.
 - GNOME Sound applet. This is same sound applet that used to be part of GNOME
   Control Center. Actually this is not applet, but application that provides
@@ -119,6 +119,6 @@ Version 3.10.0
   Enrico Nicoletto (pt_BR), Marek Černocký (cs), Matej Urbančič (sl),
   Piotr Drąg (pl), Rafael Ferreira (pt_BR).
 
-NOTE: This is first release and is intended to improve GNOME Flashback session.
+NOTE: This is first release and is intended to improve Budgie Helper session.
 Don't expect that this module will solve all problems! There is still a lot of
 work to do to make this session in good state.

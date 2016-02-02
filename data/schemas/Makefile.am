@@ -1,7 +1,7 @@
 NULL =
 
 gsettings_SCHEMAS = \
-	org.gnome.gnome-flashback.gschema.xml \
+	com.solus-project.budgie-wm.gschema.xml \
 	$(NULL)
 
 @GSETTINGS_RULES@

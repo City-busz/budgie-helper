@@ -11,7 +11,7 @@ if [ ! -f $srcdir/configure.ac ]; then
   exit 1
 fi
 
-if [ ! -f $srcdir/gnome-flashback/libsound-applet/gvc/Makefile.am ]; then
+if [ ! -f $srcdir/budgie-helper/libsound-applet/gvc/Makefile.am ]; then
 	set -x
 	git submodule init
 	{ set +x; } 2>/dev/null

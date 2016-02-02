@@ -1,10 +1,10 @@
-# Serbian translation for gnome-flashback.
-# Copyright (C) 2014 gnome-flashback's COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-flashback package.
+# Serbian translation for budgie-helper.
+# Copyright (C) 2014 budgie-helper's COPYRIGHT HOLDER
+# This file is distributed under the same license as the budgie-helper package.
 # Miroslav Nikolić <miroslavnikolic@rocketmail.com>, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-flashback master\n"
+"Project-Id-Version: budgie-helper master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "flashback&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2014-11-29 16:36+0000\n"
@@ -19,112 +19,112 @@ msgstr ""
 "n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Project-Style: gnome\n"
 
-#: ../data/gnome-flashback.desktop.in.h:1
-msgid "GNOME Flashback"
+#: ../data/budgie-helper.desktop.in.h:1
+msgid "Budgie Helper"
 msgstr "Stari Gnom"
 
-#: ../data/gnome-flashback-compiz.desktop.in.in.h:1
-msgid "GNOME Flashback (Compiz)"
+#: ../data/budgie-helper-compiz.desktop.in.in.h:1
+msgid "Budgie Helper (Compiz)"
 msgstr "Stari Gnom (Kompiz)"
 
-#: ../data/gnome-flashback-compiz.desktop.in.in.h:2
-msgid "This session logs you into GNOME Flashback with Compiz"
+#: ../data/budgie-helper-compiz.desktop.in.in.h:2
+msgid "This session logs you into Budgie Helper with Compiz"
 msgstr "Ova sesija vas prijavljuje u stari Gnom sa Kompizom"
 
-#: ../data/gnome-flashback-init.desktop.in.h:1
-msgid "GNOME Flashback Initialization"
+#: ../data/budgie-helper-init.desktop.in.h:1
+msgid "Budgie Helper Initialization"
 msgstr "Pokretanje starog Gnoma"
 
-#: ../data/gnome-flashback-metacity.desktop.in.in.h:1
-msgid "GNOME Flashback (Metacity)"
+#: ../data/budgie-helper-metacity.desktop.in.in.h:1
+msgid "Budgie Helper (Metacity)"
 msgstr "Stari Gnom (Metasiti)"
 
-#: ../data/gnome-flashback-metacity.desktop.in.in.h:2
-msgid "This session logs you into GNOME Flashback with Metacity"
+#: ../data/budgie-helper-metacity.desktop.in.in.h:2
+msgid "This session logs you into Budgie Helper with Metacity"
 msgstr "Ova sesija vas prijavljuje u stari Gnom sa Metasitijem"
 
-#: ../data/org.gnome.gnome-flashback.gschema.xml.in.in.h:1
+#: ../data/com.solus-project.budgie-wm.gschema.xml.in.in.h:1
 msgid "Automount manager"
 msgstr "Upravnik samomontiranja"
 
-#: ../data/org.gnome.gnome-flashback.gschema.xml.in.in.h:2
+#: ../data/com.solus-project.budgie-wm.gschema.xml.in.in.h:2
 msgid ""
-"If set to true, then GNOME Flashback application will be used to automount "
+"If set to true, then Budgie Helper application will be used to automount "
 "removable media."
 msgstr ""
 "Ako je izabrano, tada će program starog Gnoma biti korišćen za samomontiranje "
 "uklonjivih uređaja."
 
-#: ../data/org.gnome.gnome-flashback.gschema.xml.in.in.h:3
+#: ../data/com.solus-project.budgie-wm.gschema.xml.in.in.h:3
 msgid "Desktop background"
 msgstr "Pozadina radne površi"
 
-#: ../data/org.gnome.gnome-flashback.gschema.xml.in.in.h:4
+#: ../data/com.solus-project.budgie-wm.gschema.xml.in.in.h:4
 msgid ""
-"If set to true, then GNOME Flashback application will be used to draw "
+"If set to true, then Budgie Helper application will be used to draw "
 "desktop background."
 msgstr ""
 "Ako je izabrano, tada će program starog Gnoma biti korišćen za iscrtavanje "
 "pozadine radne površi."
 
-#: ../data/org.gnome.gnome-flashback.gschema.xml.in.in.h:5
+#: ../data/com.solus-project.budgie-wm.gschema.xml.in.in.h:5
 msgid "Display config"
 msgstr "Podešavanje prikaza"
 
-#: ../data/org.gnome.gnome-flashback.gschema.xml.in.in.h:6
+#: ../data/com.solus-project.budgie-wm.gschema.xml.in.in.h:6
 msgid ""
-"If set to true, then GNOME Flashback application will be used to provide "
+"If set to true, then Budgie Helper application will be used to provide "
 "display configuration."
 msgstr ""
 "Ako je izabrano, tada će program starog Gnoma biti korišćen za obezbeđivanje "
 "podešavanja prikaza."
 
-#: ../data/org.gnome.gnome-flashback.gschema.xml.in.in.h:7
+#: ../data/com.solus-project.budgie-wm.gschema.xml.in.in.h:7
 msgid "End session dialog"
 msgstr "Prozorče kraja sesije"
 
-#: ../data/org.gnome.gnome-flashback.gschema.xml.in.in.h:8
+#: ../data/com.solus-project.budgie-wm.gschema.xml.in.in.h:8
 msgid ""
-"If set to true, then GNOME Flashback application will be used to show end "
+"If set to true, then Budgie Helper application will be used to show end "
 "session dialog."
 msgstr ""
 "Ako je izabrano, tada će program starog Gnoma biti korišćen za prikazivanje "
 "prozorčeta kraja sesije."
 
-#: ../data/org.gnome.gnome-flashback.gschema.xml.in.in.h:9
+#: ../data/com.solus-project.budgie-wm.gschema.xml.in.in.h:9
 msgid "Idle monitor"
 msgstr "Praćenje mirovanja"
 
-#: ../data/org.gnome.gnome-flashback.gschema.xml.in.in.h:10
+#: ../data/com.solus-project.budgie-wm.gschema.xml.in.in.h:10
 msgid ""
-"If set to true, then GNOME Flashback application will be used for user "
+"If set to true, then Budgie Helper application will be used for user "
 "activity monitoring."
 msgstr ""
 "Ako je izabrano, tada će program starog Gnoma biti korišćen za nadgledanje "
 "korisnikovih radnji."
 
-#: ../data/org.gnome.gnome-flashback.gschema.xml.in.in.h:11
+#: ../data/com.solus-project.budgie-wm.gschema.xml.in.in.h:11
 msgid "Key grabber"
 msgstr "Hvatač tastera"
 
-#: ../data/org.gnome.gnome-flashback.gschema.xml.in.in.h:12
+#: ../data/com.solus-project.budgie-wm.gschema.xml.in.in.h:12
 #| msgid ""
-#| "If set to true, then GNOME Flashback application will be used for user "
+#| "If set to true, then Budgie Helper application will be used for user "
 #| "activity monitoring."
 msgid ""
-"If set to true, then GNOME Flashback application will be used for key "
+"If set to true, then Budgie Helper application will be used for key "
 "grabbing."
 msgstr ""
 "Ako je izabrano, tada će program starog Gnoma biti korišćen za hvatanje "
 "tastera."
 
-#: ../data/org.gnome.gnome-flashback.gschema.xml.in.in.h:13
+#: ../data/com.solus-project.budgie-wm.gschema.xml.in.in.h:13
 msgid "Sound applet"
 msgstr "Programče zvuka"
 
-#: ../data/org.gnome.gnome-flashback.gschema.xml.in.in.h:14
+#: ../data/com.solus-project.budgie-wm.gschema.xml.in.in.h:14
 msgid ""
-"If set to true, then GNOME Flashback application will be used to show sound "
+"If set to true, then Budgie Helper application will be used to show sound "
 "applet. This is same sound applet that used to be part of GNOME Control "
 "Center."
 msgstr ""
@@ -132,11 +132,11 @@ msgstr ""
 "programčeta zvuka. To je isto ono programče koje je obično deo Gnomovog "
 "upravljačkog centra."
 
-#: ../data/org.gnome.gnome-flashback.gschema.xml.in.in.h:15
+#: ../data/com.solus-project.budgie-wm.gschema.xml.in.in.h:15
 msgid "Fade the background on change"
 msgstr "Pretapanje pozadine prilikom izmene"
 
-#: ../data/org.gnome.gnome-flashback.gschema.xml.in.in.h:16
+#: ../data/com.solus-project.budgie-wm.gschema.xml.in.in.h:16
 msgid ""
 "If set to true, then fade effect will be used to change the desktop "
 "background."
@@ -144,30 +144,30 @@ msgstr ""
 "Ukoliko je izabrano, tada će blagi prelaz biti korišćen pri promeni pozadine "
 "radne površi."
 
-#: ../gnome-flashback/flashback-main.c:33
-#| msgid "GNOME Flashback"
-msgid "Initialize GNOME Flashback session"
+#: ../budgie-helper/flashback-main.c:33
+#| msgid "Budgie Helper"
+msgid "Initialize Budgie Helper session"
 msgstr "Pokreće sesiju Starog Gnoma"
 
-#: ../gnome-flashback/flashback-main.c:39
+#: ../budgie-helper/flashback-main.c:39
 msgid "Replace a currently running application"
 msgstr "Menja trenutno pokrenut program"
 
-#: ../gnome-flashback/libend-session-dialog/flashback-inhibit-dialog.c:327
+#: ../budgie-helper/libend-session-dialog/flashback-inhibit-dialog.c:327
 msgid "Unknown"
 msgstr "Nepoznato"
 
-#: ../gnome-flashback/libend-session-dialog/flashback-inhibit-dialog.c:408
-#: ../gnome-flashback/libend-session-dialog/flashback-inhibit-dialog.c:597
+#: ../budgie-helper/libend-session-dialog/flashback-inhibit-dialog.c:408
+#: ../budgie-helper/libend-session-dialog/flashback-inhibit-dialog.c:597
 msgid "Log Out"
 msgstr "Odjavi"
 
-#: ../gnome-flashback/libend-session-dialog/flashback-inhibit-dialog.c:410
+#: ../budgie-helper/libend-session-dialog/flashback-inhibit-dialog.c:410
 msgid "Click Log Out to quit these applications and log out of the system."
 msgstr ""
 "Pritisnite na „Odjavi“ da napustite ove programe i da se odjavite sa sistema."
 
-#: ../gnome-flashback/libend-session-dialog/flashback-inhibit-dialog.c:412
+#: ../budgie-helper/libend-session-dialog/flashback-inhibit-dialog.c:412
 #, c-format
 msgid "%s will be logged out automatically in %d second."
 msgid_plural "%s will be logged out automatically in %d seconds."
@@ -176,17 +176,17 @@ msgstr[1] "%s će biti odjavljen za %d sekunde."
 msgstr[2] "%s će biti odjavljen za %d sekundi."
 msgstr[3] "%s će biti odjavljen za jednu sekundu."
 
-#: ../gnome-flashback/libend-session-dialog/flashback-inhibit-dialog.c:418
-#: ../gnome-flashback/libend-session-dialog/flashback-inhibit-dialog.c:600
+#: ../budgie-helper/libend-session-dialog/flashback-inhibit-dialog.c:418
+#: ../budgie-helper/libend-session-dialog/flashback-inhibit-dialog.c:600
 msgid "Power Off"
 msgstr "Isključi"
 
-#: ../gnome-flashback/libend-session-dialog/flashback-inhibit-dialog.c:420
+#: ../budgie-helper/libend-session-dialog/flashback-inhibit-dialog.c:420
 msgid "Click Power Off to quit these applications and power off the system."
 msgstr ""
 "Pritisnite na „Isključi“ da napustite ove programe i da isključite računar."
 
-#: ../gnome-flashback/libend-session-dialog/flashback-inhibit-dialog.c:422
+#: ../budgie-helper/libend-session-dialog/flashback-inhibit-dialog.c:422
 #, c-format
 msgid "The system will power off automatically in %d second."
 msgid_plural "The system will power off automatically in %d seconds."
@@ -195,18 +195,18 @@ msgstr[1] "Računar će se isključiti za %d sekunde."
 msgstr[2] "Računar će se isključiti za %d sekundi."
 msgstr[3] "Računar će se isključiti za jednu sekundu."
 
-#: ../gnome-flashback/libend-session-dialog/flashback-inhibit-dialog.c:428
-#: ../gnome-flashback/libend-session-dialog/flashback-inhibit-dialog.c:603
+#: ../budgie-helper/libend-session-dialog/flashback-inhibit-dialog.c:428
+#: ../budgie-helper/libend-session-dialog/flashback-inhibit-dialog.c:603
 msgid "Restart"
 msgstr "Ponovo pokreni"
 
-#: ../gnome-flashback/libend-session-dialog/flashback-inhibit-dialog.c:430
+#: ../budgie-helper/libend-session-dialog/flashback-inhibit-dialog.c:430
 msgid "Click Restart to quit these applications and restart the system."
 msgstr ""
 "Pritisnite na „Ponovo pokreni“ da napustite ove programe i da ponovo "
 "pokrenete sistem."
 
-#: ../gnome-flashback/libend-session-dialog/flashback-inhibit-dialog.c:432
+#: ../budgie-helper/libend-session-dialog/flashback-inhibit-dialog.c:432
 #, c-format
 msgid "The system will restart automatically in %d second."
 msgid_plural "The system will restart automatically in %d seconds."
@@ -215,12 +215,12 @@ msgstr[1] "Sistem će se ponovo pokrenuti za %d sekunde."
 msgstr[2] "Sistem će se ponovo pokrenuti za %d sekundi."
 msgstr[3] "Sistem će se ponovo pokrenuti za jednu sekundu."
 
-#: ../gnome-flashback/libend-session-dialog/flashback-inhibit-dialog.c:438
-#: ../gnome-flashback/libend-session-dialog/flashback-inhibit-dialog.c:606
+#: ../budgie-helper/libend-session-dialog/flashback-inhibit-dialog.c:438
+#: ../budgie-helper/libend-session-dialog/flashback-inhibit-dialog.c:606
 msgid "Hibernate"
 msgstr "Zamrzni"
 
-#: ../gnome-flashback/libend-session-dialog/flashback-inhibit-dialog.c:439
+#: ../budgie-helper/libend-session-dialog/flashback-inhibit-dialog.c:439
 #, c-format
 msgid "The system will hibernate automatically in %d second."
 msgid_plural "The system will hibernate automatically in %d seconds."
@@ -229,12 +229,12 @@ msgstr[1] "Sistem će se zamrznuti za %d sekunde."
 msgstr[2] "Sistem će se zamrznuti za %d sekundi."
 msgstr[3] "Sistem će se zamrznuti za jednu sekundu."
 
-#: ../gnome-flashback/libend-session-dialog/flashback-inhibit-dialog.c:444
-#: ../gnome-flashback/libend-session-dialog/flashback-inhibit-dialog.c:609
+#: ../budgie-helper/libend-session-dialog/flashback-inhibit-dialog.c:444
+#: ../budgie-helper/libend-session-dialog/flashback-inhibit-dialog.c:609
 msgid "Suspend"
 msgstr "Primiri"
 
-#: ../gnome-flashback/libend-session-dialog/flashback-inhibit-dialog.c:445
+#: ../budgie-helper/libend-session-dialog/flashback-inhibit-dialog.c:445
 #, c-format
 msgid "The system will suspend automatically in %d second."
 msgid_plural "The system will suspend automatically in %d seconds."
@@ -243,12 +243,12 @@ msgstr[1] "Računar će se primiriti za %d sekunde."
 msgstr[2] "Računar će se primiriti za %d sekundi."
 msgstr[3] "Računar će se primiriti za jednu sekundu."
 
-#: ../gnome-flashback/libend-session-dialog/flashback-inhibit-dialog.c:450
-#: ../gnome-flashback/libend-session-dialog/flashback-inhibit-dialog.c:612
+#: ../budgie-helper/libend-session-dialog/flashback-inhibit-dialog.c:450
+#: ../budgie-helper/libend-session-dialog/flashback-inhibit-dialog.c:612
 msgid "Hybrid Sleep"
 msgstr "Uspavaj"
 
-#: ../gnome-flashback/libend-session-dialog/flashback-inhibit-dialog.c:451
+#: ../budgie-helper/libend-session-dialog/flashback-inhibit-dialog.c:451
 #, c-format
 msgid "The system will hybrid sleep automatically in %d second."
 msgid_plural "The system will hybrid sleep automatically in %d seconds."
@@ -257,125 +257,125 @@ msgstr[1] "Sistem će se uspavati za %d sekunde."
 msgstr[2] "Sistem će se uspavati za %d sekundi."
 msgstr[3] "Sistem će se uspavati za jednu sekundu."
 
-#: ../gnome-flashback/libend-session-dialog/flashback-inhibit-dialog.ui.h:1
+#: ../budgie-helper/libend-session-dialog/flashback-inhibit-dialog.ui.h:1
 msgid "Some programs are still running:"
 msgstr "Neki programi su još uvek pokrenuti:"
 
-#: ../gnome-flashback/libend-session-dialog/flashback-inhibit-dialog.ui.h:2
+#: ../budgie-helper/libend-session-dialog/flashback-inhibit-dialog.ui.h:2
 msgid ""
 "Waiting for these applications to finish. Interrupting them can lead to loss "
 "of data."
 msgstr ""
 "Čekam na njih da završe. Njihovo prekidanje može dovesti do gubitka podataka."
 
-#: ../gnome-flashback/libend-session-dialog/flashback-inhibit-dialog.ui.h:3
+#: ../budgie-helper/libend-session-dialog/flashback-inhibit-dialog.ui.h:3
 msgid "Cancel"
 msgstr "Otkaži"
 
-#: ../gnome-flashback/libend-session-dialog/flashback-inhibit-dialog.ui.h:4
+#: ../budgie-helper/libend-session-dialog/flashback-inhibit-dialog.ui.h:4
 msgid "Lock Screen"
 msgstr "Zaključaj ekran"
 
-#: ../gnome-flashback/libautomount-manager/gsd-automount-manager.c:180
+#: ../budgie-helper/libautomount-manager/gsd-automount-manager.c:180
 #, c-format
 msgid "Unable to mount %s"
 msgstr "Ne mogu da prikačim „%s“"
 
-#: ../gnome-flashback/libautomount-manager/gsd-automount-manager.c:293
+#: ../budgie-helper/libautomount-manager/gsd-automount-manager.c:293
 #, c-format
 msgid "Unable to open a folder for %s"
 msgstr "Ne mogu da otvorim fasciklu za „%s“"
 
-#: ../gnome-flashback/libautomount-manager/gsd-autorun.c:339
+#: ../budgie-helper/libautomount-manager/gsd-autorun.c:339
 msgid "Ask what to do"
 msgstr "Pitaj šta da radiš"
 
-#: ../gnome-flashback/libautomount-manager/gsd-autorun.c:345
+#: ../budgie-helper/libautomount-manager/gsd-autorun.c:345
 msgid "Do Nothing"
 msgstr "Ne radi ništa"
 
-#: ../gnome-flashback/libautomount-manager/gsd-autorun.c:351
+#: ../budgie-helper/libautomount-manager/gsd-autorun.c:351
 msgid "Open Folder"
 msgstr "Otvorite fasciklu"
 
-#: ../gnome-flashback/libautomount-manager/gsd-autorun.c:496
+#: ../budgie-helper/libautomount-manager/gsd-autorun.c:496
 #, c-format
 msgid "Unable to eject %p"
 msgstr "Ne mogu da izbacim „%p“"
 
-#: ../gnome-flashback/libautomount-manager/gsd-autorun.c:498
+#: ../budgie-helper/libautomount-manager/gsd-autorun.c:498
 #, c-format
 msgid "Unable to unmount %p"
 msgstr "Ne mogu da otkačim „%p“"
 
-#: ../gnome-flashback/libautomount-manager/gsd-autorun.c:705
+#: ../budgie-helper/libautomount-manager/gsd-autorun.c:705
 msgid "You have just inserted an Audio CD."
 msgstr "Upravo ste ubacili zvučni CD."
 
-#: ../gnome-flashback/libautomount-manager/gsd-autorun.c:707
+#: ../budgie-helper/libautomount-manager/gsd-autorun.c:707
 msgid "You have just inserted an Audio DVD."
 msgstr "Upravo ste ubacili zvučni DVD."
 
-#: ../gnome-flashback/libautomount-manager/gsd-autorun.c:709
+#: ../budgie-helper/libautomount-manager/gsd-autorun.c:709
 msgid "You have just inserted a Video DVD."
 msgstr "Upravo ste ubacili video DVD."
 
-#: ../gnome-flashback/libautomount-manager/gsd-autorun.c:711
+#: ../budgie-helper/libautomount-manager/gsd-autorun.c:711
 msgid "You have just inserted a Video CD."
 msgstr "Upravo ste ubacili video CD."
 
-#: ../gnome-flashback/libautomount-manager/gsd-autorun.c:713
+#: ../budgie-helper/libautomount-manager/gsd-autorun.c:713
 msgid "You have just inserted a Super Video CD."
 msgstr "Upravo ste ubacili super video CD."
 
-#: ../gnome-flashback/libautomount-manager/gsd-autorun.c:715
+#: ../budgie-helper/libautomount-manager/gsd-autorun.c:715
 msgid "You have just inserted a blank CD."
 msgstr "Upravo ste ubacili prazan CD."
 
-#: ../gnome-flashback/libautomount-manager/gsd-autorun.c:717
+#: ../budgie-helper/libautomount-manager/gsd-autorun.c:717
 msgid "You have just inserted a blank DVD."
 msgstr "Upravo ste ubacili prazan DVD."
 
-#: ../gnome-flashback/libautomount-manager/gsd-autorun.c:719
+#: ../budgie-helper/libautomount-manager/gsd-autorun.c:719
 msgid "You have just inserted a blank Blu-Ray disc."
 msgstr "Upravo ste ubacili prazan plavo-zračni disk."
 
-#: ../gnome-flashback/libautomount-manager/gsd-autorun.c:721
+#: ../budgie-helper/libautomount-manager/gsd-autorun.c:721
 msgid "You have just inserted a blank HD DVD."
 msgstr "Upravo ste ubacili prazan DVD visoke rezolucije."
 
-#: ../gnome-flashback/libautomount-manager/gsd-autorun.c:723
+#: ../budgie-helper/libautomount-manager/gsd-autorun.c:723
 msgid "You have just inserted a Photo CD."
 msgstr "Upravo ste ubacili CD sa fotografijama."
 
-#: ../gnome-flashback/libautomount-manager/gsd-autorun.c:725
+#: ../budgie-helper/libautomount-manager/gsd-autorun.c:725
 msgid "You have just inserted a Picture CD."
 msgstr "Upravo ste ubacili CD sa slikama."
 
-#: ../gnome-flashback/libautomount-manager/gsd-autorun.c:727
+#: ../budgie-helper/libautomount-manager/gsd-autorun.c:727
 msgid "You have just inserted a medium with digital photos."
 msgstr "Upravo ste ubacili nosač sa digitalnim fotografijama."
 
-#: ../gnome-flashback/libautomount-manager/gsd-autorun.c:729
+#: ../budgie-helper/libautomount-manager/gsd-autorun.c:729
 msgid "You have just inserted a digital audio player."
 msgstr "Upravo ste ubacili digitalni puštač zvuka."
 
-#: ../gnome-flashback/libautomount-manager/gsd-autorun.c:731
+#: ../budgie-helper/libautomount-manager/gsd-autorun.c:731
 msgid ""
 "You have just inserted a medium with software intended to be automatically "
 "started."
 msgstr "Upravo ste ubacili nosač sa samopokretačkim programima."
 
 #. fallback to generic greeting
-#: ../gnome-flashback/libautomount-manager/gsd-autorun.c:734
+#: ../budgie-helper/libautomount-manager/gsd-autorun.c:734
 msgid "You have just inserted a medium."
 msgstr "Upravo ste ubacili nosač."
 
-#: ../gnome-flashback/libautomount-manager/gsd-autorun.c:736
+#: ../budgie-helper/libautomount-manager/gsd-autorun.c:736
 msgid "Choose what application to launch."
 msgstr "Izaberite program za pokretanje."
 
-#: ../gnome-flashback/libautomount-manager/gsd-autorun.c:745
+#: ../budgie-helper/libautomount-manager/gsd-autorun.c:745
 #, c-format
 msgid ""
 "Select how to open \"%s\" and whether to perform this action in the future "
@@ -384,79 +384,79 @@ msgstr ""
 "Izaberite kako će se otvoriti „%s“ i da li će se ta radnja izvršavati ubuduće "
 "i za druge nosače vrste „%s“."
 
-#: ../gnome-flashback/libautomount-manager/gsd-autorun.c:772
+#: ../budgie-helper/libautomount-manager/gsd-autorun.c:772
 msgid "_Always perform this action"
 msgstr "_Uvek izvrši ovu radnju"
 
-#: ../gnome-flashback/libautomount-manager/gsd-autorun.c:781
+#: ../budgie-helper/libautomount-manager/gsd-autorun.c:781
 msgid "_Cancel"
 msgstr "_Otkaži"
 
-#: ../gnome-flashback/libautomount-manager/gsd-autorun.c:782
+#: ../budgie-helper/libautomount-manager/gsd-autorun.c:782
 msgid "_OK"
 msgstr "U _redu"
 
-#: ../gnome-flashback/libautomount-manager/gsd-autorun.c:788
+#: ../budgie-helper/libautomount-manager/gsd-autorun.c:788
 msgid "_Eject"
 msgstr "_Izbaci"
 
-#: ../gnome-flashback/libautomount-manager/gsd-autorun.c:793
+#: ../budgie-helper/libautomount-manager/gsd-autorun.c:793
 msgid "_Unmount"
 msgstr "_Otkači"
 
-#: ../gnome-flashback/libsound-applet/gvc-applet.c:267
+#: ../budgie-helper/libsound-applet/gvc-applet.c:267
 msgid "Output"
 msgstr "Izlaz"
 
-#: ../gnome-flashback/libsound-applet/gvc-applet.c:269
+#: ../budgie-helper/libsound-applet/gvc-applet.c:269
 msgid "Sound Output Volume"
 msgstr "Jačina izlaznog zvuka"
 
-#: ../gnome-flashback/libsound-applet/gvc-applet.c:273
+#: ../budgie-helper/libsound-applet/gvc-applet.c:273
 msgid "Input"
 msgstr "Ulaz"
 
-#: ../gnome-flashback/libsound-applet/gvc-applet.c:275
+#: ../budgie-helper/libsound-applet/gvc-applet.c:275
 msgid "Microphone Volume"
 msgstr "Jačina zvuka mikrofona"
 
-#: ../gnome-flashback/libsound-applet/gvc-channel-bar.c:578
-#: ../gnome-flashback/libsound-applet/gvc-channel-bar.c:587
+#: ../budgie-helper/libsound-applet/gvc-channel-bar.c:578
+#: ../budgie-helper/libsound-applet/gvc-channel-bar.c:587
 msgctxt "volume"
 msgid "100%"
 msgstr "100%"
 
-#: ../gnome-flashback/libsound-applet/gvc-channel-bar.c:582
+#: ../budgie-helper/libsound-applet/gvc-channel-bar.c:582
 msgctxt "volume"
 msgid "Unamplified"
 msgstr "Bez pojačanja"
 
-#: ../gnome-flashback/libsound-applet/gvc-stream-status-icon.c:292
+#: ../budgie-helper/libsound-applet/gvc-stream-status-icon.c:292
 #, c-format
 msgid "Failed to start Sound Preferences: %s"
 msgstr "Nisam uspeo da pokrenem postavke zvuka: %s"
 
-#: ../gnome-flashback/libsound-applet/gvc-stream-status-icon.c:317
+#: ../budgie-helper/libsound-applet/gvc-stream-status-icon.c:317
 msgid "_Mute"
 msgstr "_Utišaj"
 
-#: ../gnome-flashback/libsound-applet/gvc-stream-status-icon.c:326
+#: ../budgie-helper/libsound-applet/gvc-stream-status-icon.c:326
 msgid "_Sound Preferences"
 msgstr "Postavke _zvuka"
 
-#: ../gnome-flashback/libsound-applet/gvc-stream-status-icon.c:450
+#: ../budgie-helper/libsound-applet/gvc-stream-status-icon.c:450
 msgid "Muted"
 msgstr "Utišan"
 
 #. translators:
 #. * The device has been disabled
-#: ../gnome-flashback/libsound-applet/gvc/gvc-mixer-control.c:1830
+#: ../budgie-helper/libsound-applet/gvc/gvc-mixer-control.c:1830
 msgid "Disabled"
 msgstr "Isključen"
 
 #. translators:
 #. * The number of sound outputs on a particular device
-#: ../gnome-flashback/libsound-applet/gvc/gvc-mixer-control.c:1837
+#: ../budgie-helper/libsound-applet/gvc/gvc-mixer-control.c:1837
 #, c-format
 msgid "%u Output"
 msgid_plural "%u Outputs"
@@ -467,7 +467,7 @@ msgstr[3] "jedan izlaz"
 
 #. translators:
 #. * The number of sound inputs on a particular device
-#: ../gnome-flashback/libsound-applet/gvc/gvc-mixer-control.c:1847
+#: ../budgie-helper/libsound-applet/gvc/gvc-mixer-control.c:1847
 #, c-format
 msgid "%u Input"
 msgid_plural "%u Inputs"
@@ -476,6 +476,6 @@ msgstr[1] "%u ulaza"
 msgstr[2] "%u ulaza"
 msgstr[3] "jedan ulaz"
 
-#: ../gnome-flashback/libsound-applet/gvc/gvc-mixer-control.c:2373
+#: ../budgie-helper/libsound-applet/gvc/gvc-mixer-control.c:2373
 msgid "System Sounds"
 msgstr "Sistemski zvuci"

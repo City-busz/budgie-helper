@@ -1,8 +1,8 @@
 NULL =
 
 desktop_in_files = \
-	gnome-flashback.desktop.in \
-	gnome-flashback-init.desktop.in \
+	budgie-helper.desktop.in \
+	budgie-helper-init.desktop.in \
 	$(NULL)
 
 desktopdir = $(datadir)/applications

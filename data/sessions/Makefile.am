@@ -2,8 +2,8 @@ NULL =
 
 sessiondir = $(datadir)/gnome-session/sessions
 session_DATA = \
-	gnome-flashback-compiz.session \
-	gnome-flashback-metacity.session \
+	budgie-helper-compiz.session \
+	budgie-helper-metacity.session \
 	$(NULL)
 
 EXTRA_DIST = \

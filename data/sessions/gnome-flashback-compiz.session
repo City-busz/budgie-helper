@@ -1,3 +1,0 @@
-[GNOME Session]
-Name=GNOME Flashback (Compiz)
-RequiredComponents=gnome-flashback-init;gnome-flashback;gnome-panel;compiz;gnome-settings-daemon;nautilus-classic;

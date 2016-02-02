@@ -1,12 +1,12 @@
-# Hungarian translation of gnome-flashback
+# Hungarian translation of budgie-helper
 # Copyright (C) 2014. Free Software Foundation, Inc.
-# This file is distributed under the same license as the gnome-flashback package.
+# This file is distributed under the same license as the budgie-helper package.
 #
 # Gabor Kelemen <kelemeng at gnome dot hu>, 2014, 2015.
 # Balázs Úr <urbalazs at gmail dot com>, 2014, 2015.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-flashback master\n"
+"Project-Id-Version: budgie-helper master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "flashback&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2015-10-11 07:43+0000\n"
@@ -20,238 +20,238 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Lokalize 1.5\n"
 
-#: data/applications/gnome-flashback.desktop.in:4
-msgid "GNOME Flashback"
-msgstr "GNOME Flashback"
+#: data/applications/budgie-helper.desktop.in:4
+msgid "Budgie Helper"
+msgstr "Budgie Helper"
 
-#: data/applications/gnome-flashback-init.desktop.in:4
-msgid "GNOME Flashback Initialization"
-msgstr "GNOME Flashback előkészítés"
+#: data/applications/budgie-helper-init.desktop.in:4
+msgid "Budgie Helper Initialization"
+msgstr "Budgie Helper előkészítés"
 
-#: data/autostart/gnome-flashback-nm-applet.desktop.in:3
-#| msgid "GNOME Flashback"
-msgid "Network (GNOME Flashback)"
-msgstr "Hálózat (GNOME Flashback)"
+#: data/autostart/budgie-helper-nm-applet.desktop.in:3
+#| msgid "Budgie Helper"
+msgid "Network (Budgie Helper)"
+msgstr "Hálózat (Budgie Helper)"
 
-#: data/autostart/gnome-flashback-nm-applet.desktop.in:4
+#: data/autostart/budgie-helper-nm-applet.desktop.in:4
 msgid "Manage your network connections"
 msgstr "Hálózati kapcsolatok kezelése"
 
-#: data/autostart/gnome-flashback-nm-applet.desktop.in:5
+#: data/autostart/budgie-helper-nm-applet.desktop.in:5
 msgid "nm-device-wireless"
 msgstr "nm-device-wireless"
 
-#: data/autostart/gnome-flashback-screensaver.desktop.in:4
-#| msgid "GNOME Flashback"
-msgid "Screensaver (GNOME Flashback)"
-msgstr "Képernyővédő (GNOME Flashback)"
+#: data/autostart/budgie-helper-screensaver.desktop.in:4
+#| msgid "Budgie Helper"
+msgid "Screensaver (Budgie Helper)"
+msgstr "Képernyővédő (Budgie Helper)"
 
-#: data/autostart/gnome-flashback-screensaver.desktop.in:5
+#: data/autostart/budgie-helper-screensaver.desktop.in:5
 msgid "Launch screensaver and locker program"
 msgstr "Képernyővédő és -zároló program indítása"
 
-#: data/autostart/gnome-flashback-screensaver.desktop.in:6
+#: data/autostart/budgie-helper-screensaver.desktop.in:6
 msgid "preferences-desktop-screensaver"
 msgstr "preferences-desktop-screensaver"
 
-#: data/directories/X-GNOME-Flashback-Settings.directory.desktop.in:4
+#: data/directories/X-Budgie-Settings.directory.desktop.in:4
 #| msgid "_Sound Preferences"
 msgid "Preferences"
 msgstr "Beállítások"
 
-#: data/directories/X-GNOME-Flashback-Settings.directory.desktop.in:5
+#: data/directories/X-Budgie-Settings.directory.desktop.in:5
 #| msgid "_Sound Preferences"
 msgid "Personal preferences"
 msgstr "Személyes beállítások"
 
-#: data/directories/X-GNOME-Flashback-Settings.directory.desktop.in:6
+#: data/directories/X-Budgie-Settings.directory.desktop.in:6
 msgid "preferences-desktop"
 msgstr "preferences-desktop"
 
-#: data/directories/X-GNOME-Flashback-Settings-System.directory.desktop.in:4
+#: data/directories/X-Budgie-Settings-System.directory.desktop.in:4
 msgid "Administration"
 msgstr "Adminisztráció"
 
-#: data/directories/X-GNOME-Flashback-Settings-System.directory.desktop.in:5
+#: data/directories/X-Budgie-Settings-System.directory.desktop.in:5
 msgid "Change system-wide settings (affects all users)"
 msgstr "Rendszerszintű beállítások módosítása (minden felhasználóra kihat)"
 
-#: data/directories/X-GNOME-Flashback-Settings-System.directory.desktop.in:6
+#: data/directories/X-Budgie-Settings-System.directory.desktop.in:6
 msgid "preferences-system"
 msgstr "preferences-system"
 
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:6
+#: data/schemas/com.solus-project.budgie-wm.gschema.xml:6
 msgid "Automount manager"
 msgstr "Automatikus csatolás kezelő"
 
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:7
+#: data/schemas/com.solus-project.budgie-wm.gschema.xml:7
 msgid ""
-"If set to true, then GNOME Flashback application will be used to automount "
+"If set to true, then Budgie Helper application will be used to automount "
 "removable media."
 msgstr ""
-"Ha igazra van állítva, akkor a GNOME Flashback alkalmazás lesz használva "
+"Ha igazra van állítva, akkor a Budgie Helper alkalmazás lesz használva "
 "cserélhető adathordozók automatikus csatolásához."
 
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:12
+#: data/schemas/com.solus-project.budgie-wm.gschema.xml:12
 msgid "Bluetooth applet"
 msgstr "Bluetooth kisalkalmazás"
 
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:13
+#: data/schemas/com.solus-project.budgie-wm.gschema.xml:13
 msgid ""
-"If set to true, then GNOME Flashback application will be used to show a "
+"If set to true, then Budgie Helper application will be used to show a "
 "Bluetooth applet."
 msgstr ""
-"Ha igazra van állítva, akkor a GNOME Flashback alkalmazás lesz használva egy "
+"Ha igazra van állítva, akkor a Budgie Helper alkalmazás lesz használva egy "
 "Bluetooth kisalkalmazás megjelenítéséhez."
 
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:18
+#: data/schemas/com.solus-project.budgie-wm.gschema.xml:18
 msgid "Desktop background"
 msgstr "Asztal háttere"
 
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:19
+#: data/schemas/com.solus-project.budgie-wm.gschema.xml:19
 msgid ""
-"If set to true, then GNOME Flashback application will be used to draw the "
+"If set to true, then Budgie Helper application will be used to draw the "
 "desktop background."
 msgstr ""
-"Ha igazra van állítva, akkor a GNOME Flashback alkalmazás lesz használva az "
+"Ha igazra van állítva, akkor a Budgie Helper alkalmazás lesz használva az "
 "asztal hátterének kirajzolásához."
 
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:24
+#: data/schemas/com.solus-project.budgie-wm.gschema.xml:24
 msgid "Display configuration"
 msgstr "Kijelző beállítás"
 
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:25
+#: data/schemas/com.solus-project.budgie-wm.gschema.xml:25
 msgid ""
-"If set to true, then GNOME Flashback application will be used to provide the "
+"If set to true, then Budgie Helper application will be used to provide the "
 "display configuration."
 msgstr ""
-"Ha igazra van állítva, akkor a GNOME Flashback alkalmazás lesz használva a "
+"Ha igazra van állítva, akkor a Budgie Helper alkalmazás lesz használva a "
 "kijelző beállításának biztosításához."
 
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:30
+#: data/schemas/com.solus-project.budgie-wm.gschema.xml:30
 msgid "End session dialog"
 msgstr "Munkamenet befejezése párbeszédablak"
 
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:31
+#: data/schemas/com.solus-project.budgie-wm.gschema.xml:31
 msgid ""
-"If set to true, then GNOME Flashback application will be used to show the "
+"If set to true, then Budgie Helper application will be used to show the "
 "end session dialog."
 msgstr ""
-"Ha igazra van állítva, akkor a GNOME Flashback alkalmazás lesz használva a "
+"Ha igazra van állítva, akkor a Budgie Helper alkalmazás lesz használva a "
 "munkamenet befejezése párbeszédablak megjelenítéséhez."
 
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:36
+#: data/schemas/com.solus-project.budgie-wm.gschema.xml:36
 msgid "Idle monitor"
 msgstr "Üresjárat figyelő"
 
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:37
+#: data/schemas/com.solus-project.budgie-wm.gschema.xml:37
 msgid ""
-"If set to true, then GNOME Flashback application will be used for user "
+"If set to true, then Budgie Helper application will be used for user "
 "activity monitoring."
 msgstr ""
-"Ha igazra van állítva, akkor a GNOME Flashback alkalmazás lesz használva a "
+"Ha igazra van állítva, akkor a Budgie Helper alkalmazás lesz használva a "
 "felhasználói tevékenység monitorozásához."
 
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:42
+#: data/schemas/com.solus-project.budgie-wm.gschema.xml:42
 msgid "Keyboard layouts and input methods"
 msgstr "Billentyűzetkiosztások és beviteli módok"
 
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:43
+#: data/schemas/com.solus-project.budgie-wm.gschema.xml:43
 msgid ""
-"If set to true, then GNOME Flashback application will be used to manage "
+"If set to true, then Budgie Helper application will be used to manage "
 "keyboard layouts and input methods."
 msgstr ""
-"Ha igazra van állítva, akkor a GNOME Flashback alkalmazás lesz használva a "
+"Ha igazra van állítva, akkor a Budgie Helper alkalmazás lesz használva a "
 "billentyűzetkiosztások és a beviteli módok kezeléséhez."
 
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:48
+#: data/schemas/com.solus-project.budgie-wm.gschema.xml:48
 msgid "Authentication agent for polkit"
 msgstr "PolicyKit hitelesítési ügynök"
 
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:49
+#: data/schemas/com.solus-project.budgie-wm.gschema.xml:49
 msgid ""
 "This is the same authentication agent that was provided by PolicyKit-gnome."
 msgstr ""
 "Ugyanaz a hitelesítési ügynök, mint amit a PolicyKit-gnome biztosított."
 
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:54
+#: data/schemas/com.solus-project.budgie-wm.gschema.xml:54
 msgid "Power applet"
 msgstr "Energia kisalkalmazás"
 
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:55
+#: data/schemas/com.solus-project.budgie-wm.gschema.xml:55
 msgid ""
-"If set to true, then GNOME Flashback application will be used to show a "
+"If set to true, then Budgie Helper application will be used to show a "
 "power applet."
 msgstr ""
-"Ha igazra van állítva, akkor a GNOME Flashback alkalmazás lesz használva egy "
+"Ha igazra van állítva, akkor a Budgie Helper alkalmazás lesz használva egy "
 "energia kisalkalmazás megjelenítéséhez."
 
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:60
+#: data/schemas/com.solus-project.budgie-wm.gschema.xml:60
 msgid "Screencasts"
 msgstr "Képernyővideók"
 
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:61
+#: data/schemas/com.solus-project.budgie-wm.gschema.xml:61
 msgid ""
-"If set to true, then GNOME Flashback application will be used to record the "
+"If set to true, then Budgie Helper application will be used to record the "
 "screen."
 msgstr ""
-"Ha igazra van állítva, akkor a GNOME Flashback alkalmazás lesz használva a "
+"Ha igazra van állítva, akkor a Budgie Helper alkalmazás lesz használva a "
 "képernyővideók rögzítéséhez."
 
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:66
+#: data/schemas/com.solus-project.budgie-wm.gschema.xml:66
 msgid "Screenshots"
 msgstr "Képernyőképek"
 
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:67
+#: data/schemas/com.solus-project.budgie-wm.gschema.xml:67
 msgid ""
-"If set to true, then GNOME Flashback application will be used to take "
+"If set to true, then Budgie Helper application will be used to take "
 "screenshots."
 msgstr ""
-"Ha igazra van állítva, akkor a GNOME Flashback alkalmazás lesz használva a "
+"Ha igazra van állítva, akkor a Budgie Helper alkalmazás lesz használva a "
 "képernyőképek készítése."
 
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:72
+#: data/schemas/com.solus-project.budgie-wm.gschema.xml:72
 msgid "Shell"
 msgstr "Parancsértelmező"
 
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:73
+#: data/schemas/com.solus-project.budgie-wm.gschema.xml:73
 msgid ""
-"If set to true, then GNOME Flashback application will be used as a shell."
+"If set to true, then Budgie Helper application will be used as a shell."
 msgstr ""
-"Ha igazra van állítva, akkor a GNOME Flashback alkalmazás lesz használva "
+"Ha igazra van állítva, akkor a Budgie Helper alkalmazás lesz használva "
 "parancsértelmezőként."
 
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:78
+#: data/schemas/com.solus-project.budgie-wm.gschema.xml:78
 msgid "Sound applet"
 msgstr "Hang kisalkalmazás"
 
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:79
+#: data/schemas/com.solus-project.budgie-wm.gschema.xml:79
 msgid ""
-"If set to true, then GNOME Flashback application will be used to show a "
+"If set to true, then Budgie Helper application will be used to show a "
 "sound applet. This is the same sound applet that used to be a part of GNOME "
 "Control Center."
 msgstr ""
-"Ha igazra van állítva, akkor a GNOME Flashback alkalmazás lesz használva a "
+"Ha igazra van állítva, akkor a Budgie Helper alkalmazás lesz használva a "
 "hang kisalkalmazás megjelenítéséhez. Ez ugyanaz a hang kisalkalmazás, amely "
 "a GNOME vezérlőpult része volt."
 
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:84
+#: data/schemas/com.solus-project.budgie-wm.gschema.xml:84
 msgid "Workarounds"
 msgstr "Kerülő megoldások"
 
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:85
+#: data/schemas/com.solus-project.budgie-wm.gschema.xml:85
 msgid ""
-"If set to true, then GNOME Flashback application will use workarounds to fix "
+"If set to true, then Budgie Helper application will use workarounds to fix "
 "bugs."
 msgstr ""
-"Ha igazra van állítva, akkor a GNOME Flashback alkalmazás kerülő "
+"Ha igazra van állítva, akkor a Budgie Helper alkalmazás kerülő "
 "megoldásokat fog használni a hibák kijavításához."
 
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:96
+#: data/schemas/com.solus-project.budgie-wm.gschema.xml:96
 msgid "Fade the background on change"
 msgstr "A háttér elhalványítása változtatáskor"
 
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:97
+#: data/schemas/com.solus-project.budgie-wm.gschema.xml:97
 msgid ""
 "If set to true, then fade effect will be used to change the desktop "
 "background."
@@ -259,150 +259,150 @@ msgstr ""
 "Ha igazra van állítva, akkor elhalványítás hatás lesz használva az asztal "
 "hátterének változtatásához."
 
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:106
+#: data/schemas/com.solus-project.budgie-wm.gschema.xml:106
 msgid "Fix missing app menu button"
 msgstr "Hiányzó alkalmazásmenü gomb javítása"
 
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:107
+#: data/schemas/com.solus-project.budgie-wm.gschema.xml:107
 msgid ""
-"If set to true, then gnome-flashback will force Gtk/ShellShowsAppMenu to "
+"If set to true, then budgie-helper will force Gtk/ShellShowsAppMenu to "
 "FALSE. Disable if you want to use gnome-settings-daemon overrides in "
 "xsettings plugin for 'Gtk/ShellShowsAppMenu' property."
 msgstr ""
-"Ha igazra van állítva, akkor a gnome-flashback a Gtk/ShellShowsAppMenu "
+"Ha igazra van állítva, akkor a budgie-helper a Gtk/ShellShowsAppMenu "
 "értékét HAMISRA fogja kényszeríteni. Tiltsa le, ha a gnome-settings-daemon "
 "felülbírálásokat szeretné használni az xsettings bővítményben a „Gtk/"
 "ShellShowsAppMenu” tulajdonságnál."
 
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:112
+#: data/schemas/com.solus-project.budgie-wm.gschema.xml:112
 msgid "Fix wrong button layout"
 msgstr "Rossz gombelrendezés javítása"
 
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:113
+#: data/schemas/com.solus-project.budgie-wm.gschema.xml:113
 msgid ""
-"If set to non-empty string, then gnome-flashback will force Gtk/"
+"If set to non-empty string, then budgie-helper will force Gtk/"
 "DecorationLayout to value set by this setting. Set to empty string if you "
 "want to use gnome-settings-daemon overrides in xsettings plugin for 'Gtk/"
 "DecorationLayout' property."
 msgstr ""
-"Ha nem üres szövegre van állítva, akkor a gnome-flashback a Gtk/"
+"Ha nem üres szövegre van állítva, akkor a budgie-helper a Gtk/"
 "DecorationLayout értékét ezen beállítás szerint fogja kényszeríteni. Állítsa "
 "üres szövegre, ha a gnome-settings-daemon felülbírálásokat szeretné "
 "használni az xsettings bővítményben a „Gtk/DecorationLayout” tulajdonságnál."
 
-#: data/xsessions/gnome-flashback-compiz.desktop.in.in:3
-msgid "GNOME Flashback (Compiz)"
-msgstr "GNOME Flashback (Compiz)"
+#: data/xsessions/budgie-helper-compiz.desktop.in.in:3
+msgid "Budgie Helper (Compiz)"
+msgstr "Budgie Helper (Compiz)"
 
-#: data/xsessions/gnome-flashback-compiz.desktop.in.in:4
-msgid "This session logs you into GNOME Flashback with Compiz"
-msgstr "Bejelentkezés a GNOME Flashback környezetbe Compiz ablakkezelővel"
+#: data/xsessions/budgie-helper-compiz.desktop.in.in:4
+msgid "This session logs you into Budgie Helper with Compiz"
+msgstr "Bejelentkezés a Budgie Helper környezetbe Compiz ablakkezelővel"
 
-#: data/xsessions/gnome-flashback-metacity.desktop.in.in:3
-msgid "GNOME Flashback (Metacity)"
-msgstr "GNOME Flashback (Metacity)"
+#: data/xsessions/budgie-helper-metacity.desktop.in.in:3
+msgid "Budgie Helper (Metacity)"
+msgstr "Budgie Helper (Metacity)"
 
-#: data/xsessions/gnome-flashback-metacity.desktop.in.in:4
-msgid "This session logs you into GNOME Flashback with Metacity"
-msgstr "Bejelentkezés a GNOME Flashback környezetbe Metacity ablakkezelővel"
+#: data/xsessions/budgie-helper-metacity.desktop.in.in:4
+msgid "This session logs you into Budgie Helper with Metacity"
+msgstr "Bejelentkezés a Budgie Helper környezetbe Metacity ablakkezelővel"
 
-#: gnome-flashback/gf-main.c:40
+#: budgie-helper/gf-main.c:40
 msgid "Enable debugging code"
 msgstr "Hibakereső kód engedélyezése"
 
-#: gnome-flashback/gf-main.c:46
-msgid "Initialize GNOME Flashback session"
-msgstr "A GNOME Flashback munkamenet előkészítése"
+#: budgie-helper/gf-main.c:46
+msgid "Initialize Budgie Helper session"
+msgstr "A Budgie Helper munkamenet előkészítése"
 
-#: gnome-flashback/gf-main.c:52
+#: budgie-helper/gf-main.c:52
 msgid "Replace a currently running application"
 msgstr "Egy jelenleg futó alkalmazás cseréje"
 
-#: gnome-flashback/libautomount-manager/gsd-automount-manager.c:177
+#: budgie-helper/libautomount-manager/gsd-automount-manager.c:177
 #, c-format
 msgid "Unable to mount %s"
 msgstr "A(z) %s nem csatolható"
 
-#: gnome-flashback/libautomount-manager/gsd-automount-manager.c:290
+#: budgie-helper/libautomount-manager/gsd-automount-manager.c:290
 #, c-format
 msgid "Unable to open a folder for %s"
 msgstr "Nem nyitható meg mappa ehhez: %s"
 
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:339
+#: budgie-helper/libautomount-manager/gsd-autorun.c:339
 msgid "Ask what to do"
 msgstr "Kérdezze meg, mi a teendő"
 
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:345
+#: budgie-helper/libautomount-manager/gsd-autorun.c:345
 msgid "Do Nothing"
 msgstr "Ne tegyen semmit"
 
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:351
+#: budgie-helper/libautomount-manager/gsd-autorun.c:351
 msgid "Open Folder"
 msgstr "Mappa megnyitása"
 
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:496
+#: budgie-helper/libautomount-manager/gsd-autorun.c:496
 #, c-format
 msgid "Unable to eject %p"
 msgstr "%p nem adható ki"
 
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:498
+#: budgie-helper/libautomount-manager/gsd-autorun.c:498
 #, c-format
 msgid "Unable to unmount %p"
 msgstr "%p nem választható le"
 
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:707
+#: budgie-helper/libautomount-manager/gsd-autorun.c:707
 msgid "You have just inserted an Audio CD."
 msgstr "Hang CD-t helyezett be."
 
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:709
+#: budgie-helper/libautomount-manager/gsd-autorun.c:709
 msgid "You have just inserted an Audio DVD."
 msgstr "Hang DVD-t helyezett be."
 
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:711
+#: budgie-helper/libautomount-manager/gsd-autorun.c:711
 msgid "You have just inserted a Video DVD."
 msgstr "Videó DVD-t helyezett be."
 
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:713
+#: budgie-helper/libautomount-manager/gsd-autorun.c:713
 msgid "You have just inserted a Video CD."
 msgstr "Videó CD-t helyezett be."
 
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:715
+#: budgie-helper/libautomount-manager/gsd-autorun.c:715
 msgid "You have just inserted a Super Video CD."
 msgstr "Szuper Videó CD-t helyezett be."
 
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:717
+#: budgie-helper/libautomount-manager/gsd-autorun.c:717
 msgid "You have just inserted a blank CD."
 msgstr "Üres CD-t helyezett be."
 
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:719
+#: budgie-helper/libautomount-manager/gsd-autorun.c:719
 msgid "You have just inserted a blank DVD."
 msgstr "Üres DVD-t helyezett be."
 
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:721
+#: budgie-helper/libautomount-manager/gsd-autorun.c:721
 msgid "You have just inserted a blank Blu-Ray disc."
 msgstr "Üres Blu-ray lemezt helyezett be."
 
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:723
+#: budgie-helper/libautomount-manager/gsd-autorun.c:723
 msgid "You have just inserted a blank HD DVD."
 msgstr "Üres HD DVD-t helyezett be."
 
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:725
+#: budgie-helper/libautomount-manager/gsd-autorun.c:725
 msgid "You have just inserted a Photo CD."
 msgstr "Fotó CD-t helyezett be."
 
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:727
+#: budgie-helper/libautomount-manager/gsd-autorun.c:727
 msgid "You have just inserted a Picture CD."
 msgstr "Kép CD-t helyezett be."
 
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:729
+#: budgie-helper/libautomount-manager/gsd-autorun.c:729
 msgid "You have just inserted a medium with digital photos."
 msgstr "Digitális fényképeket tartalmazó adathordozót helyezett be."
 
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:731
+#: budgie-helper/libautomount-manager/gsd-autorun.c:731
 msgid "You have just inserted a digital audio player."
 msgstr "Digitális zenelejátszót csatlakoztatott."
 
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:733
+#: budgie-helper/libautomount-manager/gsd-autorun.c:733
 msgid ""
 "You have just inserted a medium with software intended to be automatically "
 "started."
@@ -411,15 +411,15 @@ msgstr ""
 "be."
 
 #. fallback to generic greeting
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:736
+#: budgie-helper/libautomount-manager/gsd-autorun.c:736
 msgid "You have just inserted a medium."
 msgstr "Adathordozót helyezett be."
 
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:738
+#: budgie-helper/libautomount-manager/gsd-autorun.c:738
 msgid "Choose what application to launch."
 msgstr "Válassza ki az elindítandó alkalmazást."
 
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:747
+#: budgie-helper/libautomount-manager/gsd-autorun.c:747
 #, c-format
 msgid ""
 "Select how to open \"%s\" and whether to perform this action in the future "
@@ -428,184 +428,184 @@ msgstr ""
 "Válassza ki „%s” megnyitási módját és hogy végre kívánja-e hajtani ezt a "
 "műveletet a jövőben más „%s” típusú adathordozókon."
 
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:774
+#: budgie-helper/libautomount-manager/gsd-autorun.c:774
 msgid "_Always perform this action"
 msgstr "Mindig ezen művelet végreh_ajtása"
 
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:783
-#: gnome-flashback/libpolkit/flashback-polkit-dialog.ui:213
+#: budgie-helper/libautomount-manager/gsd-autorun.c:783
+#: budgie-helper/libpolkit/flashback-polkit-dialog.ui:213
 msgid "_Cancel"
 msgstr "_Mégse"
 
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:784
+#: budgie-helper/libautomount-manager/gsd-autorun.c:784
 msgid "_OK"
 msgstr "_OK"
 
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:790
+#: budgie-helper/libautomount-manager/gsd-autorun.c:790
 msgid "_Eject"
 msgstr "_Kiadás"
 
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:795
+#: budgie-helper/libautomount-manager/gsd-autorun.c:795
 msgid "_Unmount"
 msgstr "_Leválasztás"
 
-#: gnome-flashback/libbluetooth-applet/gf-bluetooth-applet.c:160
+#: budgie-helper/libbluetooth-applet/gf-bluetooth-applet.c:160
 msgid "Turn Off"
 msgstr "Kikapcsolás"
 
-#: gnome-flashback/libbluetooth-applet/gf-bluetooth-applet.c:164
+#: budgie-helper/libbluetooth-applet/gf-bluetooth-applet.c:164
 msgid "Send Files"
 msgstr "Fájlok küldése"
 
-#: gnome-flashback/libbluetooth-applet/gf-bluetooth-applet.c:170
+#: budgie-helper/libbluetooth-applet/gf-bluetooth-applet.c:170
 msgid "Turn On"
 msgstr "Bekapcsolás"
 
-#: gnome-flashback/libbluetooth-applet/gf-bluetooth-applet.c:175
+#: budgie-helper/libbluetooth-applet/gf-bluetooth-applet.c:175
 msgid "Bluetooth Settings"
 msgstr "Bluetooth beállítások"
 
-#: gnome-flashback/libbluetooth-applet/gf-bluetooth-applet.c:271
+#: budgie-helper/libbluetooth-applet/gf-bluetooth-applet.c:271
 msgid "Bluetooth active"
 msgstr "Bluetooth aktív"
 
-#: gnome-flashback/libbluetooth-applet/gf-bluetooth-applet.c:276
+#: budgie-helper/libbluetooth-applet/gf-bluetooth-applet.c:276
 msgid "Bluetooth disabled"
 msgstr "Bluetooth letiltva"
 
-#: gnome-flashback/libbluetooth-applet/gf-bluetooth-applet.c:282
+#: budgie-helper/libbluetooth-applet/gf-bluetooth-applet.c:282
 #, c-format
 msgid "%d Connected Device"
 msgid_plural "%d Connected Devices"
 msgstr[0] "%d csatlakoztatott eszköz"
 msgstr[1] "%d csatlakoztatott eszköz"
 
-#: gnome-flashback/libbluetooth-applet/gf-bluetooth-applet.c:288
+#: budgie-helper/libbluetooth-applet/gf-bluetooth-applet.c:288
 msgid "Not Connected"
 msgstr "Nincs csatlakoztatva"
 
-#: gnome-flashback/libdisplay-config/flashback-confirm-dialog.ui:8
+#: budgie-helper/libdisplay-config/flashback-confirm-dialog.ui:8
 msgid "Confirm"
 msgstr "Megerősítés"
 
-#: gnome-flashback/libdisplay-config/flashback-confirm-dialog.ui:53
+#: budgie-helper/libdisplay-config/flashback-confirm-dialog.ui:53
 msgid "Do you want to keep these display settings?"
 msgstr "Meg szeretné tartani ezeket a kijelzőbeállításokat?"
 
-#: gnome-flashback/libdisplay-config/flashback-confirm-dialog.ui:96
+#: budgie-helper/libdisplay-config/flashback-confirm-dialog.ui:96
 msgid "_Keep Changes"
 msgstr "_Változtatások megtartása"
 
-#: gnome-flashback/libdisplay-config/flashback-confirm-dialog.ui:116
+#: budgie-helper/libdisplay-config/flashback-confirm-dialog.ui:116
 #| msgid "Power Settings"
 msgid "_Revert Settings"
 msgstr "_Beállítások visszavonása"
 
-#: gnome-flashback/libdisplay-config/flashback-display-config.c:195
+#: budgie-helper/libdisplay-config/flashback-display-config.c:195
 msgid "Built-in display"
 msgstr "Beépített kijelző"
 
-#: gnome-flashback/libdisplay-config/flashback-display-config.c:218
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:383
+#: budgie-helper/libdisplay-config/flashback-display-config.c:218
+#: budgie-helper/libend-session-dialog/gf-inhibit-dialog.c:383
 msgid "Unknown"
 msgstr "Ismeretlen"
 
-#: gnome-flashback/libdisplay-config/flashback-display-config.c:220
+#: budgie-helper/libdisplay-config/flashback-display-config.c:220
 msgid "Unknown Display"
 msgstr "Ismeretlen kijelző"
 
 #. TRANSLATORS: this is a monitor vendor name, followed by a
 #. * size in inches, like 'Dell 15"'
 #.
-#: gnome-flashback/libdisplay-config/flashback-display-config.c:228
+#: budgie-helper/libdisplay-config/flashback-display-config.c:228
 #, c-format
 msgid "%s %s"
 msgstr "%s %s"
 
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:464
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:689
+#: budgie-helper/libend-session-dialog/gf-inhibit-dialog.c:464
+#: budgie-helper/libend-session-dialog/gf-inhibit-dialog.c:689
 msgid "Log Out"
 msgstr "Kijelentkezés"
 
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:467
+#: budgie-helper/libend-session-dialog/gf-inhibit-dialog.c:467
 msgid "Click Log Out to quit these applications and log out of the system."
 msgstr ""
 "Nyomja meg a Kijelentkezés gombot az alkalmazások bezárásához és a "
 "kijelentkezéshez a rendszerből."
 
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:469
+#: budgie-helper/libend-session-dialog/gf-inhibit-dialog.c:469
 #, c-format
 msgid "%s will be logged out automatically in %d second."
 msgid_plural "%s will be logged out automatically in %d seconds."
 msgstr[0] "%s automatikusan ki fog jelentkezni %d másodperc múlva."
 msgstr[1] "%s automatikusan ki fog jelentkezni %d másodperc múlva."
 
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:476
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:693
+#: budgie-helper/libend-session-dialog/gf-inhibit-dialog.c:476
+#: budgie-helper/libend-session-dialog/gf-inhibit-dialog.c:693
 msgid "Power Off"
 msgstr "Kikapcsolás"
 
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:479
+#: budgie-helper/libend-session-dialog/gf-inhibit-dialog.c:479
 msgid "Click Power Off to quit these applications and power off the system."
 msgstr ""
 "Nyomja meg a Kikapcsolás gombot az alkalmazások bezárásához és a rendszer "
 "kikapcsolásához."
 
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:481
+#: budgie-helper/libend-session-dialog/gf-inhibit-dialog.c:481
 #, c-format
 msgid "The system will power off automatically in %d second."
 msgid_plural "The system will power off automatically in %d seconds."
 msgstr[0] "A rendszer automatikusan kikapcsol %d másodperc múlva."
 msgstr[1] "A rendszer automatikusan kikapcsol %d másodperc múlva."
 
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:488
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:697
+#: budgie-helper/libend-session-dialog/gf-inhibit-dialog.c:488
+#: budgie-helper/libend-session-dialog/gf-inhibit-dialog.c:697
 msgid "Restart"
 msgstr "Újraindítás"
 
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:491
+#: budgie-helper/libend-session-dialog/gf-inhibit-dialog.c:491
 msgid "Click Restart to quit these applications and restart the system."
 msgstr ""
 "Nyomja meg az Újraindítás gombot az alkalmazások bezárásához és a rendszer "
 "újraindításához."
 
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:493
+#: budgie-helper/libend-session-dialog/gf-inhibit-dialog.c:493
 #, c-format
 msgid "The system will restart automatically in %d second."
 msgid_plural "The system will restart automatically in %d seconds."
 msgstr[0] "A rendszer automatikusan újraindul %d másodperc múlva."
 msgstr[1] "A rendszer automatikusan újraindul %d másodperc múlva."
 
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:500
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:701
+#: budgie-helper/libend-session-dialog/gf-inhibit-dialog.c:500
+#: budgie-helper/libend-session-dialog/gf-inhibit-dialog.c:701
 msgid "Hibernate"
 msgstr "Hibernálás"
 
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:501
+#: budgie-helper/libend-session-dialog/gf-inhibit-dialog.c:501
 #, c-format
 msgid "The system will hibernate automatically in %d second."
 msgid_plural "The system will hibernate automatically in %d seconds."
 msgstr[0] "A rendszer automatikusan hibernálásra kerül %d másodperc múlva."
 msgstr[1] "A rendszer automatikusan hibernálásra kerül %d másodperc múlva."
 
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:508
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:705
+#: budgie-helper/libend-session-dialog/gf-inhibit-dialog.c:508
+#: budgie-helper/libend-session-dialog/gf-inhibit-dialog.c:705
 msgid "Suspend"
 msgstr "Felfüggesztés"
 
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:509
+#: budgie-helper/libend-session-dialog/gf-inhibit-dialog.c:509
 #, c-format
 msgid "The system will suspend automatically in %d second."
 msgid_plural "The system will suspend automatically in %d seconds."
 msgstr[0] "A rendszer automatikusan fel lesz függesztve %d másodperc múlva."
 msgstr[1] "A rendszer automatikusan fel lesz függesztve %d másodperc múlva."
 
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:516
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:709
+#: budgie-helper/libend-session-dialog/gf-inhibit-dialog.c:516
+#: budgie-helper/libend-session-dialog/gf-inhibit-dialog.c:709
 msgid "Hybrid Sleep"
 msgstr "Hibrid alvás"
 
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:517
+#: budgie-helper/libend-session-dialog/gf-inhibit-dialog.c:517
 #, c-format
 msgid "The system will hybrid sleep automatically in %d second."
 msgid_plural "The system will hybrid sleep automatically in %d seconds."
@@ -614,11 +614,11 @@ msgstr[0] ""
 msgstr[1] ""
 "A rendszer automatikusan hibrid alvó állapotba kerül %d másodperc múlva."
 
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.ui:29
+#: budgie-helper/libend-session-dialog/gf-inhibit-dialog.ui:29
 msgid "Some programs are still running:"
 msgstr "Néhány program még fut:"
 
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.ui:78
+#: budgie-helper/libend-session-dialog/gf-inhibit-dialog.ui:78
 msgid ""
 "Waiting for these applications to finish. Interrupting them can lead to loss "
 "of data."
@@ -626,33 +626,33 @@ msgstr ""
 "Várakozás az alkalmazások befejeződésére. A megszakításuk adatvesztést "
 "okozhat."
 
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.ui:111
+#: budgie-helper/libend-session-dialog/gf-inhibit-dialog.ui:111
 msgid "Cancel"
 msgstr "Mégse"
 
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.ui:125
+#: budgie-helper/libend-session-dialog/gf-inhibit-dialog.ui:125
 msgid "Lock Screen"
 msgstr "Képernyő zárolása"
 
-#: gnome-flashback/libpolkit/flashback-authenticator.c:93
+#: budgie-helper/libpolkit/flashback-authenticator.c:93
 #, c-format
 msgid "_Password for %s:"
 msgstr "%s jel_szava:"
 
-#: gnome-flashback/libpolkit/flashback-authenticator.c:97
-#: gnome-flashback/libpolkit/flashback-polkit-dialog.ui:99
+#: budgie-helper/libpolkit/flashback-authenticator.c:97
+#: budgie-helper/libpolkit/flashback-polkit-dialog.ui:99
 msgid "_Password:"
 msgstr "_Jelszó:"
 
-#: gnome-flashback/libpolkit/flashback-authenticator.c:252
+#: budgie-helper/libpolkit/flashback-authenticator.c:252
 msgid "Your authentication attempt was unsuccessful. Please try again."
 msgstr "A hitelesítési kísérlete sikertelen volt. Próbálja újra."
 
-#: gnome-flashback/libpolkit/flashback-listener.c:139
+#: budgie-helper/libpolkit/flashback-listener.c:139
 msgid "Authentication dialog was dismissed by the user"
 msgstr "A hitelesítési ablakot a felhasználó bezárta"
 
-#: gnome-flashback/libpolkit/flashback-polkit-dialog.c:202
+#: budgie-helper/libpolkit/flashback-polkit-dialog.c:202
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as one of the users below is required to perform this action."
@@ -661,8 +661,8 @@ msgstr ""
 "jogosultságot igényel. A következő felhasználók egyikeként való hitelesítés "
 "szükséges a művelet végrehajtásához."
 
-#: gnome-flashback/libpolkit/flashback-polkit-dialog.c:212
-#: gnome-flashback/libpolkit/flashback-polkit-dialog.ui:68
+#: budgie-helper/libpolkit/flashback-polkit-dialog.c:212
+#: budgie-helper/libpolkit/flashback-polkit-dialog.ui:68
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication is required to perform this action."
@@ -670,7 +670,7 @@ msgstr ""
 "Egy alkalmazás olyan műveletet próbál végrehajtani, amely speciális "
 "jogosultságot igényel. A művelet végrehajtásához hitelesítés szükséges."
 
-#: gnome-flashback/libpolkit/flashback-polkit-dialog.c:217
+#: budgie-helper/libpolkit/flashback-polkit-dialog.c:217
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as the super user is required to perform this action."
@@ -679,122 +679,122 @@ msgstr ""
 "jogosultságot igényel. Adminisztrátorként való hitelesítés szükséges a "
 "művelet végrehajtásához."
 
-#: gnome-flashback/libpolkit/flashback-polkit-dialog.c:383
+#: budgie-helper/libpolkit/flashback-polkit-dialog.c:383
 msgid "Select user..."
 msgstr "Válasszon felhasználót…"
 
-#: gnome-flashback/libpolkit/flashback-polkit-dialog.c:422
+#: budgie-helper/libpolkit/flashback-polkit-dialog.c:422
 #, c-format
 msgid "%s (%s)"
 msgstr "%s (%s)"
 
-#: gnome-flashback/libpolkit/flashback-polkit-dialog.c:593
+#: budgie-helper/libpolkit/flashback-polkit-dialog.c:593
 msgid "Action:"
 msgstr "Művelet:"
 
-#: gnome-flashback/libpolkit/flashback-polkit-dialog.c:596
+#: budgie-helper/libpolkit/flashback-polkit-dialog.c:596
 #, c-format
 msgid "Click to edit %s"
 msgstr "Kattintson %s művelet jogosultságbeállításainak módosításához"
 
-#: gnome-flashback/libpolkit/flashback-polkit-dialog.c:604
+#: budgie-helper/libpolkit/flashback-polkit-dialog.c:604
 msgid "Vendor:"
 msgstr "Szállító:"
 
-#: gnome-flashback/libpolkit/flashback-polkit-dialog.c:607
+#: budgie-helper/libpolkit/flashback-polkit-dialog.c:607
 #, c-format
 msgid "Click to open %s"
 msgstr "Kattintson a(z) %s megnyitásához"
 
-#: gnome-flashback/libpolkit/flashback-polkit-dialog.ui:8
+#: budgie-helper/libpolkit/flashback-polkit-dialog.ui:8
 msgid "Authenticate"
 msgstr "Hitelesítés"
 
-#: gnome-flashback/libpolkit/flashback-polkit-dialog.ui:53
+#: budgie-helper/libpolkit/flashback-polkit-dialog.ui:53
 msgid "<big><b>Title</b></big>"
 msgstr "<big><b>Cím</b></big>"
 
-#: gnome-flashback/libpolkit/flashback-polkit-dialog.ui:192
+#: budgie-helper/libpolkit/flashback-polkit-dialog.ui:192
 msgid "<small><b>_Details</b></small>"
 msgstr "<small><b>_Részletek</b></small>"
 
-#: gnome-flashback/libpolkit/flashback-polkit-dialog.ui:228
+#: budgie-helper/libpolkit/flashback-polkit-dialog.ui:228
 msgid "_Authenticate"
 msgstr "_Hitelesítés"
 
-#: gnome-flashback/libpower-applet/gf-power-applet.c:135
+#: budgie-helper/libpower-applet/gf-power-applet.c:135
 msgid "Power Settings"
 msgstr "Energiabeállítások"
 
-#: gnome-flashback/libpower-applet/gf-power-applet.c:182
+#: budgie-helper/libpower-applet/gf-power-applet.c:182
 msgid "Fully Charged"
 msgstr "Teljesen feltöltve"
 
-#: gnome-flashback/libpower-applet/gf-power-applet.c:184
+#: budgie-helper/libpower-applet/gf-power-applet.c:184
 msgid "Empty"
 msgstr "Üres"
 
-#: gnome-flashback/libpower-applet/gf-power-applet.c:190
-#: gnome-flashback/libpower-applet/gf-power-applet.c:195
+#: budgie-helper/libpower-applet/gf-power-applet.c:190
+#: budgie-helper/libpower-applet/gf-power-applet.c:195
 msgid "Estimating..."
 msgstr "Becslés…"
 
 #. Translators: this is <hours>:<minutes> Remaining (<percentage>)
-#: gnome-flashback/libpower-applet/gf-power-applet.c:204
+#: budgie-helper/libpower-applet/gf-power-applet.c:204
 #, c-format
 msgid "%.0f:%02.0f Remaining (%.0f%%)"
 msgstr "%.0f.%02.0f van hátra (%.0f%%)"
 
 #. Translators: this is <hours>:<minutes> Until Full (<percentage>)
-#: gnome-flashback/libpower-applet/gf-power-applet.c:211
+#: budgie-helper/libpower-applet/gf-power-applet.c:211
 #, c-format
 msgid "%.0f:%02.0f Until Full (%.0f%%)"
 msgstr "%.0f.%02.0f a teljes töltésig (%.0f%%)"
 
-#: gnome-flashback/libpower-applet/gf-power-applet.c:226
+#: budgie-helper/libpower-applet/gf-power-applet.c:226
 msgid "UPS"
 msgstr "UPS"
 
-#: gnome-flashback/libpower-applet/gf-power-applet.c:228
+#: budgie-helper/libpower-applet/gf-power-applet.c:228
 msgid "Battery"
 msgstr "Akkumulátor"
 
-#: gnome-flashback/libsound-applet/gf-sound-applet.c:283
+#: budgie-helper/libsound-applet/gf-sound-applet.c:283
 msgid "Output"
 msgstr "Kimenet"
 
-#: gnome-flashback/libsound-applet/gf-sound-applet.c:286
+#: budgie-helper/libsound-applet/gf-sound-applet.c:286
 msgid "Sound Output Volume"
 msgstr "Hangkimenet hangereje"
 
-#: gnome-flashback/libsound-applet/gf-sound-applet.c:293
+#: budgie-helper/libsound-applet/gf-sound-applet.c:293
 msgid "Input"
 msgstr "Bemenet"
 
-#: gnome-flashback/libsound-applet/gf-sound-applet.c:296
+#: budgie-helper/libsound-applet/gf-sound-applet.c:296
 msgid "Microphone Volume"
 msgstr "Mikrofon hangereje"
 
-#: gnome-flashback/libsound-applet/gvc-channel-bar.c:537
-#: gnome-flashback/libsound-applet/gvc-channel-bar.c:546
+#: budgie-helper/libsound-applet/gvc-channel-bar.c:537
+#: budgie-helper/libsound-applet/gvc-channel-bar.c:546
 msgctxt "volume"
 msgid "100%"
 msgstr "100%"
 
-#: gnome-flashback/libsound-applet/gvc-channel-bar.c:541
+#: budgie-helper/libsound-applet/gvc-channel-bar.c:541
 msgctxt "volume"
 msgid "Unamplified"
 msgstr "Erősítetlen"
 
 #. translators:
 #. * The device has been disabled
-#: gnome-flashback/libsound-applet/gvc/gvc-mixer-control.c:1828
+#: budgie-helper/libsound-applet/gvc/gvc-mixer-control.c:1828
 msgid "Disabled"
 msgstr "Tiltva"
 
 #. translators:
 #. * The number of sound outputs on a particular device
-#: gnome-flashback/libsound-applet/gvc/gvc-mixer-control.c:1835
+#: budgie-helper/libsound-applet/gvc/gvc-mixer-control.c:1835
 #, c-format
 msgid "%u Output"
 msgid_plural "%u Outputs"
@@ -803,31 +803,31 @@ msgstr[1] "%u kimenet"
 
 #. translators:
 #. * The number of sound inputs on a particular device
-#: gnome-flashback/libsound-applet/gvc/gvc-mixer-control.c:1845
+#: budgie-helper/libsound-applet/gvc/gvc-mixer-control.c:1845
 #, c-format
 msgid "%u Input"
 msgid_plural "%u Inputs"
 msgstr[0] "%u bemenet"
 msgstr[1] "%u bemenet"
 
-#: gnome-flashback/libsound-applet/gvc/gvc-mixer-control.c:2371
+#: budgie-helper/libsound-applet/gvc/gvc-mixer-control.c:2371
 msgid "System Sounds"
 msgstr "Rendszerhangok"
 
-#: gnome-flashback/libsound-applet/gvc-stream-status-icon.c:293
+#: budgie-helper/libsound-applet/gvc-stream-status-icon.c:293
 #, c-format
 msgid "Failed to start Sound Preferences: %s"
 msgstr "A Hangbeállítások indítása meghiúsult: %s"
 
-#: gnome-flashback/libsound-applet/gvc-stream-status-icon.c:318
+#: budgie-helper/libsound-applet/gvc-stream-status-icon.c:318
 msgid "_Mute"
 msgstr "_Némítás"
 
-#: gnome-flashback/libsound-applet/gvc-stream-status-icon.c:327
+#: budgie-helper/libsound-applet/gvc-stream-status-icon.c:327
 msgid "_Sound Preferences"
 msgstr "_Hangbeállítások"
 
-#: gnome-flashback/libsound-applet/gvc-stream-status-icon.c:457
+#: budgie-helper/libsound-applet/gvc-stream-status-icon.c:457
 msgid "Muted"
 msgstr "Némítva"
 

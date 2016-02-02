@@ -2,7 +2,7 @@ NULL =
 
 menudir = $(sysconfdir)/xdg/menus
 menu_DATA = \
-	gnome-flashback-applications.menu \
+	budgie-helper-applications.menu \
 	$(NULL)
 
 EXTRA_DIST = \

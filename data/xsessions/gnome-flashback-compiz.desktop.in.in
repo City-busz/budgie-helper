@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=GNOME Flashback (Compiz)
-Comment=This session logs you into GNOME Flashback with Compiz
-Exec=@libexecdir@/gnome-flashback-compiz
-TryExec=compiz
-Type=Application
-DesktopNames=GNOME-Flashback;GNOME;

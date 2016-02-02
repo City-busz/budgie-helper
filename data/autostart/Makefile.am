@@ -1,8 +1,8 @@
 NULL =
 
 autostart_in_files = \
-	gnome-flashback-nm-applet.desktop.in \
-	gnome-flashback-screensaver.desktop.in \
+	budgie-helper-nm-applet.desktop.in \
+	budgie-helper-screensaver.desktop.in \
 	$(NULL)
 
 autostartdir = $(sysconfdir)/xdg/autostart

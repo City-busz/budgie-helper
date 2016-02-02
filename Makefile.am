@@ -2,7 +2,7 @@ NULL =
 
 SUBDIRS = \
 	data \
-	gnome-flashback \
+	budgie-helper \
 	po \
 	$(NULL)
 
@@ -22,7 +22,7 @@ MAINTAINERCLEANFILES = \
 	$(srcdir)/po/boldquot.sed \
 	$(srcdir)/po/en@boldquot.header \
 	$(srcdir)/po/en@quot.header \
-	$(srcdir)/po/gnome-flashback.pot \
+	$(srcdir)/po/budgie-helper.pot \
 	$(srcdir)/po/insert-header.sin \
 	$(srcdir)/po/quot.sed \
 	$(srcdir)/po/remove-potcdate.sin \

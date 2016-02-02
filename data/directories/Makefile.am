@@ -1,8 +1,8 @@
 NULL =
 
 directory_in_files = \
-	X-GNOME-Flashback-Settings.directory.desktop.in \
-	X-GNOME-Flashback-Settings-System.directory.desktop.in \
+	X-Budgie-Settings.directory.desktop.in \
+	X-Budgie-Settings-System.directory.desktop.in \
 	$(NULL)
 
 directorydir = $(datadir)/desktop-directories

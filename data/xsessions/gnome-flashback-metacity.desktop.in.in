@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=GNOME Flashback (Metacity)
-Comment=This session logs you into GNOME Flashback with Metacity
-Exec=@libexecdir@/gnome-flashback-metacity
-TryExec=metacity
-Type=Application
-DesktopNames=GNOME-Flashback;GNOME;

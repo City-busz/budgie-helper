@@ -1,12 +1,12 @@
-# Hebrew translations for gnome-flashback package.
-# Copyright (C) 2014 THE gnome-flashback'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-flashback package.
+# Hebrew translations for budgie-helper package.
+# Copyright (C) 2014 THE budgie-helper'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the budgie-helper package.
 # יוֹסֵף אוֹר בּוֹצְ׳קוֹ <yoseforb@gnome.org>, 2014.
 # Yosef Or Boczko <yoseforb@gnome.org>, 2014, 2015.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-flashback 3.15.0\n"
+"Project-Id-Version: budgie-helper 3.15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-30 11:41+0300\n"
 "PO-Revision-Date: 2015-08-30 11:45+0300\n"
@@ -19,165 +19,165 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural= (n!=1);\n"
 "X-Generator: Gtranslator 2.91.7\n"
 
-#: ../data/gnome-flashback.desktop.in.h:1
-msgid "GNOME Flashback"
-msgstr "GNOME Flashback"
+#: ../data/budgie-helper.desktop.in.h:1
+msgid "Budgie Helper"
+msgstr "Budgie Helper"
 
-#: ../data/gnome-flashback-compiz.desktop.in.in.h:1
-msgid "GNOME Flashback (Compiz)"
-msgstr "GNOME Flashback (Compiz)"
+#: ../data/budgie-helper-compiz.desktop.in.in.h:1
+msgid "Budgie Helper (Compiz)"
+msgstr "Budgie Helper (Compiz)"
 
-#: ../data/gnome-flashback-compiz.desktop.in.in.h:2
-msgid "This session logs you into GNOME Flashback with Compiz"
-msgstr "הפעלה זו תתחבר לתוך GNOME Flashback עם Compiz"
+#: ../data/budgie-helper-compiz.desktop.in.in.h:2
+msgid "This session logs you into Budgie Helper with Compiz"
+msgstr "הפעלה זו תתחבר לתוך Budgie Helper עם Compiz"
 
-#: ../data/gnome-flashback-init.desktop.in.h:1
-msgid "GNOME Flashback Initialization"
-msgstr "מאתחל GNOME Flashback"
+#: ../data/budgie-helper-init.desktop.in.h:1
+msgid "Budgie Helper Initialization"
+msgstr "מאתחל Budgie Helper"
 
-#: ../data/gnome-flashback-metacity.desktop.in.in.h:1
-msgid "GNOME Flashback (Metacity)"
-msgstr "GNOME Flashback (Metacity)"
+#: ../data/budgie-helper-metacity.desktop.in.in.h:1
+msgid "Budgie Helper (Metacity)"
+msgstr "Budgie Helper (Metacity)"
 
-#: ../data/gnome-flashback-metacity.desktop.in.in.h:2
-msgid "This session logs you into GNOME Flashback with Metacity"
-msgstr "הפעלה זו תתחבר לתוך GNOME Flashback עם Metacity"
+#: ../data/budgie-helper-metacity.desktop.in.in.h:2
+msgid "This session logs you into Budgie Helper with Metacity"
+msgstr "הפעלה זו תתחבר לתוך Budgie Helper עם Metacity"
 
-#: ../data/org.gnome.gnome-flashback.gschema.xml.in.in.h:1
+#: ../data/com.solus-project.budgie-wm.gschema.xml.in.in.h:1
 msgid "Automount manager"
 msgstr "Automount manager"
 
-#: ../data/org.gnome.gnome-flashback.gschema.xml.in.in.h:2
+#: ../data/com.solus-project.budgie-wm.gschema.xml.in.in.h:2
 msgid ""
-"If set to true, then GNOME Flashback application will be used to automount "
+"If set to true, then Budgie Helper application will be used to automount "
 "removable media."
 msgstr ""
-"If set to true, then GNOME Flashback application will be used to automount "
+"If set to true, then Budgie Helper application will be used to automount "
 "removable media."
 
-#: ../data/org.gnome.gnome-flashback.gschema.xml.in.in.h:3
+#: ../data/com.solus-project.budgie-wm.gschema.xml.in.in.h:3
 msgid "Desktop background"
 msgstr "Desktop background"
 
-#: ../data/org.gnome.gnome-flashback.gschema.xml.in.in.h:4
+#: ../data/com.solus-project.budgie-wm.gschema.xml.in.in.h:4
 msgid ""
-"If set to true, then GNOME Flashback application will be used to draw the "
+"If set to true, then Budgie Helper application will be used to draw the "
 "desktop background."
 msgstr ""
-"If set to true, then GNOME Flashback application will be used to draw the "
+"If set to true, then Budgie Helper application will be used to draw the "
 "desktop background."
 
-#: ../data/org.gnome.gnome-flashback.gschema.xml.in.in.h:5
+#: ../data/com.solus-project.budgie-wm.gschema.xml.in.in.h:5
 msgid "Display configuration"
 msgstr "Display configuration"
 
-#: ../data/org.gnome.gnome-flashback.gschema.xml.in.in.h:6
+#: ../data/com.solus-project.budgie-wm.gschema.xml.in.in.h:6
 msgid ""
-"If set to true, then GNOME Flashback application will be used to provide the "
+"If set to true, then Budgie Helper application will be used to provide the "
 "display configuration."
 msgstr ""
-"If set to true, then GNOME Flashback application will be used to provide the "
+"If set to true, then Budgie Helper application will be used to provide the "
 "display configuration."
 
-#: ../data/org.gnome.gnome-flashback.gschema.xml.in.in.h:7
+#: ../data/com.solus-project.budgie-wm.gschema.xml.in.in.h:7
 msgid "End session dialog"
 msgstr "End session dialog"
 
-#: ../data/org.gnome.gnome-flashback.gschema.xml.in.in.h:8
+#: ../data/com.solus-project.budgie-wm.gschema.xml.in.in.h:8
 msgid ""
-"If set to true, then GNOME Flashback application will be used to show the "
+"If set to true, then Budgie Helper application will be used to show the "
 "end session dialog."
 msgstr ""
-"If set to true, then GNOME Flashback application will be used to show the "
+"If set to true, then Budgie Helper application will be used to show the "
 "end session dialog."
 
-#: ../data/org.gnome.gnome-flashback.gschema.xml.in.in.h:9
+#: ../data/com.solus-project.budgie-wm.gschema.xml.in.in.h:9
 msgid "Idle monitor"
 msgstr "Idle monitor"
 
-#: ../data/org.gnome.gnome-flashback.gschema.xml.in.in.h:10
+#: ../data/com.solus-project.budgie-wm.gschema.xml.in.in.h:10
 msgid ""
-"If set to true, then GNOME Flashback application will be used for user "
+"If set to true, then Budgie Helper application will be used for user "
 "activity monitoring."
 msgstr ""
-"If set to true, then GNOME Flashback application will be used for user "
+"If set to true, then Budgie Helper application will be used for user "
 "activity monitoring."
 
-#: ../data/org.gnome.gnome-flashback.gschema.xml.in.in.h:11
+#: ../data/com.solus-project.budgie-wm.gschema.xml.in.in.h:11
 msgid "Authentication agent for polkit"
 msgstr "Authentication agent for polkit"
 
-#: ../data/org.gnome.gnome-flashback.gschema.xml.in.in.h:12
+#: ../data/com.solus-project.budgie-wm.gschema.xml.in.in.h:12
 msgid ""
 "This is the same authentication agent that was provided by PolicyKit-gnome."
 msgstr ""
 "This is the same authentication agent that was provided by PolicyKit-gnome."
 
-#: ../data/org.gnome.gnome-flashback.gschema.xml.in.in.h:13
+#: ../data/com.solus-project.budgie-wm.gschema.xml.in.in.h:13
 msgid "Screencasts"
 msgstr "Screencasts"
 
-#: ../data/org.gnome.gnome-flashback.gschema.xml.in.in.h:14
+#: ../data/com.solus-project.budgie-wm.gschema.xml.in.in.h:14
 msgid ""
-"If set to true, then GNOME Flashback application will be used to record the "
+"If set to true, then Budgie Helper application will be used to record the "
 "screen."
 msgstr ""
-"If set to true, then GNOME Flashback application will be used to record the "
+"If set to true, then Budgie Helper application will be used to record the "
 "screen."
 
-#: ../data/org.gnome.gnome-flashback.gschema.xml.in.in.h:15
+#: ../data/com.solus-project.budgie-wm.gschema.xml.in.in.h:15
 msgid "Screenshots"
 msgstr "Screenshots"
 
-#: ../data/org.gnome.gnome-flashback.gschema.xml.in.in.h:16
+#: ../data/com.solus-project.budgie-wm.gschema.xml.in.in.h:16
 msgid ""
-"If set to true, then GNOME Flashback application will be used to take "
+"If set to true, then Budgie Helper application will be used to take "
 "screenshots."
 msgstr ""
-"If set to true, then GNOME Flashback application will be used to take "
+"If set to true, then Budgie Helper application will be used to take "
 "screenshots."
 
-#: ../data/org.gnome.gnome-flashback.gschema.xml.in.in.h:17
+#: ../data/com.solus-project.budgie-wm.gschema.xml.in.in.h:17
 msgid "Shell"
 msgstr "Shell"
 
-#: ../data/org.gnome.gnome-flashback.gschema.xml.in.in.h:18
+#: ../data/com.solus-project.budgie-wm.gschema.xml.in.in.h:18
 msgid ""
-"If set to true, then GNOME Flashback application will be used as a shell."
+"If set to true, then Budgie Helper application will be used as a shell."
 msgstr ""
-"If set to true, then GNOME Flashback application will be used as a shell."
+"If set to true, then Budgie Helper application will be used as a shell."
 
-#: ../data/org.gnome.gnome-flashback.gschema.xml.in.in.h:19
+#: ../data/com.solus-project.budgie-wm.gschema.xml.in.in.h:19
 msgid "Sound applet"
 msgstr "Sound applet"
 
-#: ../data/org.gnome.gnome-flashback.gschema.xml.in.in.h:20
+#: ../data/com.solus-project.budgie-wm.gschema.xml.in.in.h:20
 msgid ""
-"If set to true, then GNOME Flashback application will be used to show a "
+"If set to true, then Budgie Helper application will be used to show a "
 "sound applet. This is the same sound applet that used to be a part of GNOME "
 "Control Center."
 msgstr ""
-"If set to true, then GNOME Flashback application will be used to show a "
+"If set to true, then Budgie Helper application will be used to show a "
 "sound applet. This is the same sound applet that used to be a part of GNOME "
 "Control Center."
 
-#: ../data/org.gnome.gnome-flashback.gschema.xml.in.in.h:21
+#: ../data/com.solus-project.budgie-wm.gschema.xml.in.in.h:21
 msgid "Workarounds"
 msgstr "Workarounds"
 
-#: ../data/org.gnome.gnome-flashback.gschema.xml.in.in.h:22
+#: ../data/com.solus-project.budgie-wm.gschema.xml.in.in.h:22
 msgid ""
-"If set to true, then GNOME Flashback application will use workarounds to fix "
+"If set to true, then Budgie Helper application will use workarounds to fix "
 "bugs."
 msgstr ""
-"If set to true, then GNOME Flashback application will use workarounds to fix "
+"If set to true, then Budgie Helper application will use workarounds to fix "
 "bugs."
 
-#: ../data/org.gnome.gnome-flashback.gschema.xml.in.in.h:23
+#: ../data/com.solus-project.budgie-wm.gschema.xml.in.in.h:23
 msgid "Fade the background on change"
 msgstr "Fade the background on change"
 
-#: ../data/org.gnome.gnome-flashback.gschema.xml.in.in.h:24
+#: ../data/com.solus-project.budgie-wm.gschema.xml.in.in.h:24
 msgid ""
 "If set to true, then fade effect will be used to change the desktop "
 "background."
@@ -185,144 +185,144 @@ msgstr ""
 "If set to true, then fade effect will be used to change the desktop "
 "background."
 
-#: ../data/org.gnome.gnome-flashback.gschema.xml.in.in.h:25
+#: ../data/com.solus-project.budgie-wm.gschema.xml.in.in.h:25
 msgid "Fix missing app menu button"
 msgstr "Fix missing app menu button"
 
-#: ../data/org.gnome.gnome-flashback.gschema.xml.in.in.h:26
+#: ../data/com.solus-project.budgie-wm.gschema.xml.in.in.h:26
 msgid ""
-"If set to true, then gnome-flashback will force Gtk/ShellShowsAppMenu to "
+"If set to true, then budgie-helper will force Gtk/ShellShowsAppMenu to "
 "FALSE. Disable if you want to use gnome-settings-daemon overrides in "
 "xsettings plugin for 'Gtk/ShellShowsAppMenu' property."
 msgstr ""
-"If set to true, then gnome-flashback will force Gtk/ShellShowsAppMenu to "
+"If set to true, then budgie-helper will force Gtk/ShellShowsAppMenu to "
 "FALSE. Disable if you want to use gnome-settings-daemon overrides in "
 "xsettings plugin for 'Gtk/ShellShowsAppMenu' property."
 
-#: ../data/org.gnome.gnome-flashback.gschema.xml.in.in.h:27
+#: ../data/com.solus-project.budgie-wm.gschema.xml.in.in.h:27
 msgid "Fix wrong button layout"
 msgstr "Fix wrong button layout"
 
-#: ../data/org.gnome.gnome-flashback.gschema.xml.in.in.h:28
+#: ../data/com.solus-project.budgie-wm.gschema.xml.in.in.h:28
 msgid ""
-"If set to non-empty string, then gnome-flashback will force Gtk/"
+"If set to non-empty string, then budgie-helper will force Gtk/"
 "DecorationLayout to value set by this setting. Set to empty string if you "
 "want to use gnome-settings-daemon overrides in xsettings plugin for 'Gtk/"
 "DecorationLayout' property."
 msgstr ""
-"If set to non-empty string, then gnome-flashback will force Gtk/"
+"If set to non-empty string, then budgie-helper will force Gtk/"
 "DecorationLayout to value set by this setting. Set to empty string if you "
 "want to use gnome-settings-daemon overrides in xsettings plugin for 'Gtk/"
 "DecorationLayout' property."
 
-#: ../gnome-flashback/flashback-main.c:33
-msgid "Initialize GNOME Flashback session"
-msgstr "Initialize GNOME Flashback session"
+#: ../budgie-helper/flashback-main.c:33
+msgid "Initialize Budgie Helper session"
+msgstr "Initialize Budgie Helper session"
 
-#: ../gnome-flashback/flashback-main.c:39
+#: ../budgie-helper/flashback-main.c:39
 msgid "Replace a currently running application"
 msgstr "Replace a currently running application"
 
-#: ../gnome-flashback/libautomount-manager/gsd-automount-manager.c:177
+#: ../budgie-helper/libautomount-manager/gsd-automount-manager.c:177
 #, c-format
 msgid "Unable to mount %s"
 msgstr "לא ניתן לעגן את %s"
 
-#: ../gnome-flashback/libautomount-manager/gsd-automount-manager.c:290
+#: ../budgie-helper/libautomount-manager/gsd-automount-manager.c:290
 #, c-format
 msgid "Unable to open a folder for %s"
 msgstr "לא ניתן לפתוח תיקייה עבור %s"
 
-#: ../gnome-flashback/libautomount-manager/gsd-autorun.c:339
+#: ../budgie-helper/libautomount-manager/gsd-autorun.c:339
 msgid "Ask what to do"
 msgstr "לשאול מה לעשות"
 
-#: ../gnome-flashback/libautomount-manager/gsd-autorun.c:345
+#: ../budgie-helper/libautomount-manager/gsd-autorun.c:345
 msgid "Do Nothing"
 msgstr "לא לעשות דבר"
 
-#: ../gnome-flashback/libautomount-manager/gsd-autorun.c:351
+#: ../budgie-helper/libautomount-manager/gsd-autorun.c:351
 msgid "Open Folder"
 msgstr "פתיחת תיקייה"
 
-#: ../gnome-flashback/libautomount-manager/gsd-autorun.c:496
+#: ../budgie-helper/libautomount-manager/gsd-autorun.c:496
 #, c-format
 msgid "Unable to eject %p"
 msgstr "לא ניתן לשלוף את %p"
 
-#: ../gnome-flashback/libautomount-manager/gsd-autorun.c:498
+#: ../budgie-helper/libautomount-manager/gsd-autorun.c:498
 #, c-format
 msgid "Unable to unmount %p"
 msgstr "לא ניתן לבטל עיגון %p"
 
-#: ../gnome-flashback/libautomount-manager/gsd-autorun.c:707
+#: ../budgie-helper/libautomount-manager/gsd-autorun.c:707
 msgid "You have just inserted an Audio CD."
 msgstr "הכנסת תקליטור שמע."
 
-#: ../gnome-flashback/libautomount-manager/gsd-autorun.c:709
+#: ../budgie-helper/libautomount-manager/gsd-autorun.c:709
 msgid "You have just inserted an Audio DVD."
 msgstr "הכנסת תקליטור שמע DVD."
 
-#: ../gnome-flashback/libautomount-manager/gsd-autorun.c:711
+#: ../budgie-helper/libautomount-manager/gsd-autorun.c:711
 msgid "You have just inserted a Video DVD."
 msgstr "הכנסת תקליטור וידאו DVD."
 
-#: ../gnome-flashback/libautomount-manager/gsd-autorun.c:713
+#: ../budgie-helper/libautomount-manager/gsd-autorun.c:713
 msgid "You have just inserted a Video CD."
 msgstr "הכנסת תקליטור וידאו."
 
-#: ../gnome-flashback/libautomount-manager/gsd-autorun.c:715
+#: ../budgie-helper/libautomount-manager/gsd-autorun.c:715
 msgid "You have just inserted a Super Video CD."
 msgstr "הכנסת תקליטור Super Video."
 
-#: ../gnome-flashback/libautomount-manager/gsd-autorun.c:717
+#: ../budgie-helper/libautomount-manager/gsd-autorun.c:717
 msgid "You have just inserted a blank CD."
 msgstr "הכנסת תקליטור ריק."
 
-#: ../gnome-flashback/libautomount-manager/gsd-autorun.c:719
+#: ../budgie-helper/libautomount-manager/gsd-autorun.c:719
 msgid "You have just inserted a blank DVD."
 msgstr "הכנסת תקליטור DVD ריק."
 
-#: ../gnome-flashback/libautomount-manager/gsd-autorun.c:721
+#: ../budgie-helper/libautomount-manager/gsd-autorun.c:721
 msgid "You have just inserted a blank Blu-Ray disc."
 msgstr "הכנסת תקליטור Blu-Ray ריק."
 
-#: ../gnome-flashback/libautomount-manager/gsd-autorun.c:723
+#: ../budgie-helper/libautomount-manager/gsd-autorun.c:723
 msgid "You have just inserted a blank HD DVD."
 msgstr "הכנסת תקליטור DVD בהבחנה גבוה ריק."
 
-#: ../gnome-flashback/libautomount-manager/gsd-autorun.c:725
+#: ../budgie-helper/libautomount-manager/gsd-autorun.c:725
 msgid "You have just inserted a Photo CD."
 msgstr "הכנסת תקליטור Photo."
 
-#: ../gnome-flashback/libautomount-manager/gsd-autorun.c:727
+#: ../budgie-helper/libautomount-manager/gsd-autorun.c:727
 msgid "You have just inserted a Picture CD."
 msgstr "הכנסת תקליטור Picture."
 
-#: ../gnome-flashback/libautomount-manager/gsd-autorun.c:729
+#: ../budgie-helper/libautomount-manager/gsd-autorun.c:729
 msgid "You have just inserted a medium with digital photos."
 msgstr "הכנסת אמצעי תמונות ספרתי."
 
-#: ../gnome-flashback/libautomount-manager/gsd-autorun.c:731
+#: ../budgie-helper/libautomount-manager/gsd-autorun.c:731
 msgid "You have just inserted a digital audio player."
 msgstr "הכנסת נגן שמע ספרתי."
 
-#: ../gnome-flashback/libautomount-manager/gsd-autorun.c:733
+#: ../budgie-helper/libautomount-manager/gsd-autorun.c:733
 msgid ""
 "You have just inserted a medium with software intended to be automatically "
 "started."
 msgstr "הכנסת אמצעי עם תכנה המיועדת להפעלה באופן אוטומטי."
 
 #. fallback to generic greeting
-#: ../gnome-flashback/libautomount-manager/gsd-autorun.c:736
+#: ../budgie-helper/libautomount-manager/gsd-autorun.c:736
 msgid "You have just inserted a medium."
 msgstr "הכנסת אמצעי."
 
-#: ../gnome-flashback/libautomount-manager/gsd-autorun.c:738
+#: ../budgie-helper/libautomount-manager/gsd-autorun.c:738
 msgid "Choose what application to launch."
 msgstr "בחירת היישום לשיגור."
 
-#: ../gnome-flashback/libautomount-manager/gsd-autorun.c:747
+#: ../budgie-helper/libautomount-manager/gsd-autorun.c:747
 #, c-format
 msgid ""
 "Select how to open \"%s\" and whether to perform this action in the future "
@@ -330,185 +330,185 @@ msgid ""
 msgstr ""
 "בחירה איך לפתוח את „%s” והאם להעדיף פעולה זו בעתיד למדיה אחרת מסוג „%s”."
 
-#: ../gnome-flashback/libautomount-manager/gsd-autorun.c:774
+#: ../budgie-helper/libautomount-manager/gsd-autorun.c:774
 msgid "_Always perform this action"
 msgstr "_תמיד לבצע פעולה זו"
 
-#: ../gnome-flashback/libautomount-manager/gsd-autorun.c:783
-#: ../gnome-flashback/libpolkit/flashback-polkit-dialog.ui.h:6
+#: ../budgie-helper/libautomount-manager/gsd-autorun.c:783
+#: ../budgie-helper/libpolkit/flashback-polkit-dialog.ui.h:6
 msgid "_Cancel"
 msgstr "_ביטול"
 
-#: ../gnome-flashback/libautomount-manager/gsd-autorun.c:784
+#: ../budgie-helper/libautomount-manager/gsd-autorun.c:784
 msgid "_OK"
 msgstr "_אישור"
 
-#: ../gnome-flashback/libautomount-manager/gsd-autorun.c:790
+#: ../budgie-helper/libautomount-manager/gsd-autorun.c:790
 msgid "_Eject"
 msgstr "_שליפה"
 
-#: ../gnome-flashback/libautomount-manager/gsd-autorun.c:795
+#: ../budgie-helper/libautomount-manager/gsd-autorun.c:795
 msgid "_Unmount"
 msgstr "_ביטול עיגון"
 
-#: ../gnome-flashback/libdisplay-config/flashback-display-config.c:195
+#: ../budgie-helper/libdisplay-config/flashback-display-config.c:195
 msgid "Built-in display"
 msgstr "תצוגה מובנית"
 
-#: ../gnome-flashback/libdisplay-config/flashback-display-config.c:218
-#: ../gnome-flashback/libend-session-dialog/flashback-inhibit-dialog.c:323
+#: ../budgie-helper/libdisplay-config/flashback-display-config.c:218
+#: ../budgie-helper/libend-session-dialog/flashback-inhibit-dialog.c:323
 msgid "Unknown"
 msgstr "לא ידוע"
 
-#: ../gnome-flashback/libdisplay-config/flashback-display-config.c:220
+#: ../budgie-helper/libdisplay-config/flashback-display-config.c:220
 msgid "Unknown Display"
 msgstr "תצוגה לא ידועה"
 
 #. TRANSLATORS: this is a monitor vendor name, followed by a
 #. * size in inches, like 'Dell 15"'
 #.
-#: ../gnome-flashback/libdisplay-config/flashback-display-config.c:228
+#: ../budgie-helper/libdisplay-config/flashback-display-config.c:228
 #, c-format
 msgid "%s %s"
 msgstr "%s %s"
 
-#: ../gnome-flashback/libdisplay-config/flashback-confirm-dialog.ui.h:1
+#: ../budgie-helper/libdisplay-config/flashback-confirm-dialog.ui.h:1
 msgid "Confirm"
 msgstr "אימות"
 
-#: ../gnome-flashback/libdisplay-config/flashback-confirm-dialog.ui.h:2
+#: ../budgie-helper/libdisplay-config/flashback-confirm-dialog.ui.h:2
 msgid "Do you want to keep these display settings?"
 msgstr "האם אכן ברצונך לשמור הגדרות תצוגה אלו?"
 
-#: ../gnome-flashback/libdisplay-config/flashback-confirm-dialog.ui.h:3
+#: ../budgie-helper/libdisplay-config/flashback-confirm-dialog.ui.h:3
 msgid "_Keep Changes"
 msgstr "_שמירת שינויים"
 
-#: ../gnome-flashback/libdisplay-config/flashback-confirm-dialog.ui.h:4
+#: ../budgie-helper/libdisplay-config/flashback-confirm-dialog.ui.h:4
 msgid "_Revert Settings"
 msgstr "ש_חזור הגדרות"
 
-#: ../gnome-flashback/libend-session-dialog/flashback-inhibit-dialog.c:403
-#: ../gnome-flashback/libend-session-dialog/flashback-inhibit-dialog.c:592
+#: ../budgie-helper/libend-session-dialog/flashback-inhibit-dialog.c:403
+#: ../budgie-helper/libend-session-dialog/flashback-inhibit-dialog.c:592
 msgid "Log Out"
 msgstr "יציאה"
 
-#: ../gnome-flashback/libend-session-dialog/flashback-inhibit-dialog.c:405
+#: ../budgie-helper/libend-session-dialog/flashback-inhibit-dialog.c:405
 msgid "Click Log Out to quit these applications and log out of the system."
 msgstr "לחיצה על יציאה תוציא יישומים אלה ותצא מהמערכת."
 
-#: ../gnome-flashback/libend-session-dialog/flashback-inhibit-dialog.c:407
+#: ../budgie-helper/libend-session-dialog/flashback-inhibit-dialog.c:407
 #, c-format
 msgid "%s will be logged out automatically in %d second."
 msgid_plural "%s will be logged out automatically in %d seconds."
 msgstr[0] "המשתמש %s ייצא אוטומטית בעוד שנייה."
 msgstr[1] "המשתמש %s ייצא אוטומטית בעוד %d שניות."
 
-#: ../gnome-flashback/libend-session-dialog/flashback-inhibit-dialog.c:413
-#: ../gnome-flashback/libend-session-dialog/flashback-inhibit-dialog.c:595
+#: ../budgie-helper/libend-session-dialog/flashback-inhibit-dialog.c:413
+#: ../budgie-helper/libend-session-dialog/flashback-inhibit-dialog.c:595
 msgid "Power Off"
 msgstr "כיבוי"
 
-#: ../gnome-flashback/libend-session-dialog/flashback-inhibit-dialog.c:415
+#: ../budgie-helper/libend-session-dialog/flashback-inhibit-dialog.c:415
 msgid "Click Power Off to quit these applications and power off the system."
 msgstr "לחיצה על כיבוי תוציא יישומים אלה ותכבה את המערכת."
 
-#: ../gnome-flashback/libend-session-dialog/flashback-inhibit-dialog.c:417
+#: ../budgie-helper/libend-session-dialog/flashback-inhibit-dialog.c:417
 #, c-format
 msgid "The system will power off automatically in %d second."
 msgid_plural "The system will power off automatically in %d seconds."
 msgstr[0] "המערכת תכבה אוטומטית בעוד שנייה."
 msgstr[1] "המערכת תכבה אוטומטית בעוד %d שניות."
 
-#: ../gnome-flashback/libend-session-dialog/flashback-inhibit-dialog.c:423
-#: ../gnome-flashback/libend-session-dialog/flashback-inhibit-dialog.c:598
+#: ../budgie-helper/libend-session-dialog/flashback-inhibit-dialog.c:423
+#: ../budgie-helper/libend-session-dialog/flashback-inhibit-dialog.c:598
 msgid "Restart"
 msgstr "הפעלה מחדש"
 
-#: ../gnome-flashback/libend-session-dialog/flashback-inhibit-dialog.c:425
+#: ../budgie-helper/libend-session-dialog/flashback-inhibit-dialog.c:425
 msgid "Click Restart to quit these applications and restart the system."
 msgstr "לחיצה על הפעלה מחדש תוציא יישומים אלה ותפעיל מחדש את המערכת."
 
-#: ../gnome-flashback/libend-session-dialog/flashback-inhibit-dialog.c:427
+#: ../budgie-helper/libend-session-dialog/flashback-inhibit-dialog.c:427
 #, c-format
 msgid "The system will restart automatically in %d second."
 msgid_plural "The system will restart automatically in %d seconds."
 msgstr[0] "המערכת תופעל מחדש אוטומטית בעוד שנייה."
 msgstr[1] "המערכת תופעל מחדש אוטומטית בעוד %d שניות"
 
-#: ../gnome-flashback/libend-session-dialog/flashback-inhibit-dialog.c:433
-#: ../gnome-flashback/libend-session-dialog/flashback-inhibit-dialog.c:601
+#: ../budgie-helper/libend-session-dialog/flashback-inhibit-dialog.c:433
+#: ../budgie-helper/libend-session-dialog/flashback-inhibit-dialog.c:601
 msgid "Hibernate"
 msgstr "תרדמת"
 
-#: ../gnome-flashback/libend-session-dialog/flashback-inhibit-dialog.c:434
+#: ../budgie-helper/libend-session-dialog/flashback-inhibit-dialog.c:434
 #, c-format
 msgid "The system will hibernate automatically in %d second."
 msgid_plural "The system will hibernate automatically in %d seconds."
 msgstr[0] "המערכת תיכנס אוטומטית לתרדמת בעוד שנייה."
 msgstr[1] "המערת תיכנס אוטומטית לתרדמת בעוד %d שניות."
 
-#: ../gnome-flashback/libend-session-dialog/flashback-inhibit-dialog.c:439
-#: ../gnome-flashback/libend-session-dialog/flashback-inhibit-dialog.c:604
+#: ../budgie-helper/libend-session-dialog/flashback-inhibit-dialog.c:439
+#: ../budgie-helper/libend-session-dialog/flashback-inhibit-dialog.c:604
 msgid "Suspend"
 msgstr "השהיה"
 
-#: ../gnome-flashback/libend-session-dialog/flashback-inhibit-dialog.c:440
+#: ../budgie-helper/libend-session-dialog/flashback-inhibit-dialog.c:440
 #, c-format
 msgid "The system will suspend automatically in %d second."
 msgid_plural "The system will suspend automatically in %d seconds."
 msgstr[0] "המערכת תושהה אוטומטית בעוד שנייה."
 msgstr[1] "המערכת תושהה אוטומטית בעוד %d שניות."
 
-#: ../gnome-flashback/libend-session-dialog/flashback-inhibit-dialog.c:445
-#: ../gnome-flashback/libend-session-dialog/flashback-inhibit-dialog.c:607
+#: ../budgie-helper/libend-session-dialog/flashback-inhibit-dialog.c:445
+#: ../budgie-helper/libend-session-dialog/flashback-inhibit-dialog.c:607
 msgid "Hybrid Sleep"
 msgstr "שינה משולבת"
 
-#: ../gnome-flashback/libend-session-dialog/flashback-inhibit-dialog.c:446
+#: ../budgie-helper/libend-session-dialog/flashback-inhibit-dialog.c:446
 #, c-format
 msgid "The system will hybrid sleep automatically in %d second."
 msgid_plural "The system will hybrid sleep automatically in %d seconds."
 msgstr[0] "המערת תיכנס אוטומטית לשינה משולבת בעוד שנייה."
 msgstr[1] "המערכת תיכנס אוטומטית לשינה משולבת בעוד %d שניות."
 
-#: ../gnome-flashback/libend-session-dialog/flashback-inhibit-dialog.ui.h:1
+#: ../budgie-helper/libend-session-dialog/flashback-inhibit-dialog.ui.h:1
 msgid "Some programs are still running:"
 msgstr "כמה תכניות עדיין רצות:"
 
-#: ../gnome-flashback/libend-session-dialog/flashback-inhibit-dialog.ui.h:2
+#: ../budgie-helper/libend-session-dialog/flashback-inhibit-dialog.ui.h:2
 msgid ""
 "Waiting for these applications to finish. Interrupting them can lead to loss "
 "of data."
 msgstr "ממתין לסיום יישומים אלה. קטיעתם יכולה להוביל לאיבוד נתונים."
 
-#: ../gnome-flashback/libend-session-dialog/flashback-inhibit-dialog.ui.h:3
+#: ../budgie-helper/libend-session-dialog/flashback-inhibit-dialog.ui.h:3
 msgid "Cancel"
 msgstr "ביטול"
 
-#: ../gnome-flashback/libend-session-dialog/flashback-inhibit-dialog.ui.h:4
+#: ../budgie-helper/libend-session-dialog/flashback-inhibit-dialog.ui.h:4
 msgid "Lock Screen"
 msgstr "מסך נעילה"
 
-#: ../gnome-flashback/libpolkit/flashback-authenticator.c:93
+#: ../budgie-helper/libpolkit/flashback-authenticator.c:93
 #, c-format
 msgid "_Password for %s:"
 msgstr "_ססמה עבור %s:"
 
-#: ../gnome-flashback/libpolkit/flashback-authenticator.c:97
-#: ../gnome-flashback/libpolkit/flashback-polkit-dialog.ui.h:4
+#: ../budgie-helper/libpolkit/flashback-authenticator.c:97
+#: ../budgie-helper/libpolkit/flashback-polkit-dialog.ui.h:4
 msgid "_Password:"
 msgstr "_ססמה:"
 
-#: ../gnome-flashback/libpolkit/flashback-authenticator.c:254
+#: ../budgie-helper/libpolkit/flashback-authenticator.c:254
 msgid "Authentication Failure"
 msgstr "אימות נכשל"
 
-#: ../gnome-flashback/libpolkit/flashback-listener.c:139
+#: ../budgie-helper/libpolkit/flashback-listener.c:139
 msgid "Authentication dialog was dismissed by the user"
 msgstr "דו־שיח לאימות פוספס על ידי המשתמש"
 
-#: ../gnome-flashback/libpolkit/flashback-polkit-dialog.c:201
+#: ../budgie-helper/libpolkit/flashback-polkit-dialog.c:201
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as one of the users below is required to perform this action."
@@ -516,99 +516,99 @@ msgstr ""
 "יישום מנסה לבצע פעולה הדורשת הרשאות. אימות מאחד המשתמשים להלן נדרש לביצוע "
 "פעולה זו."
 
-#: ../gnome-flashback/libpolkit/flashback-polkit-dialog.c:211
-#: ../gnome-flashback/libpolkit/flashback-polkit-dialog.ui.h:3
+#: ../budgie-helper/libpolkit/flashback-polkit-dialog.c:211
+#: ../budgie-helper/libpolkit/flashback-polkit-dialog.ui.h:3
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication is required to perform this action."
 msgstr "יישום מנסה לבצע פעולה הדורשת הרשאות. אימות נדרש לביצוע פעולה זו."
 
-#: ../gnome-flashback/libpolkit/flashback-polkit-dialog.c:216
+#: ../budgie-helper/libpolkit/flashback-polkit-dialog.c:216
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as the super user is required to perform this action."
 msgstr ""
 "יישום מנסה לבצע פעולה הדורשת הרשאות. אימות נדרש ממשתמש על לביצוע פעולה זו."
 
-#: ../gnome-flashback/libpolkit/flashback-polkit-dialog.c:288
+#: ../budgie-helper/libpolkit/flashback-polkit-dialog.c:288
 msgid "Select user..."
 msgstr "בחירת משתמש…"
 
-#: ../gnome-flashback/libpolkit/flashback-polkit-dialog.c:324
+#: ../budgie-helper/libpolkit/flashback-polkit-dialog.c:324
 #, c-format
 msgid "%s (%s)"
 msgstr "%s (%s)"
 
-#: ../gnome-flashback/libpolkit/flashback-polkit-dialog.c:494
+#: ../budgie-helper/libpolkit/flashback-polkit-dialog.c:494
 msgid "Action:"
 msgstr "פעולה:"
 
-#: ../gnome-flashback/libpolkit/flashback-polkit-dialog.c:497
+#: ../budgie-helper/libpolkit/flashback-polkit-dialog.c:497
 #, c-format
 msgid "Click to edit %s"
 msgstr "יש ללחוץ לעריכת %s"
 
-#: ../gnome-flashback/libpolkit/flashback-polkit-dialog.c:505
+#: ../budgie-helper/libpolkit/flashback-polkit-dialog.c:505
 msgid "Vendor:"
 msgstr "ספק:"
 
-#: ../gnome-flashback/libpolkit/flashback-polkit-dialog.c:508
+#: ../budgie-helper/libpolkit/flashback-polkit-dialog.c:508
 #, c-format
 msgid "Click to open %s"
 msgstr "יש ללחוץ לפתיחת %s"
 
-#: ../gnome-flashback/libpolkit/flashback-polkit-dialog.ui.h:1
+#: ../budgie-helper/libpolkit/flashback-polkit-dialog.ui.h:1
 msgid "Authenticate"
 msgstr "אימות"
 
-#: ../gnome-flashback/libpolkit/flashback-polkit-dialog.ui.h:2
+#: ../budgie-helper/libpolkit/flashback-polkit-dialog.ui.h:2
 msgid "<big><b>Title</b></big>"
 msgstr "<big><b>כותרת</b></big>"
 
-#: ../gnome-flashback/libpolkit/flashback-polkit-dialog.ui.h:5
+#: ../budgie-helper/libpolkit/flashback-polkit-dialog.ui.h:5
 msgid "<small><b>_Details</b></small>"
 msgstr "<small><b>_פרטים</b></small>"
 
-#: ../gnome-flashback/libpolkit/flashback-polkit-dialog.ui.h:7
+#: ../budgie-helper/libpolkit/flashback-polkit-dialog.ui.h:7
 msgid "_Authenticate"
 msgstr "_אימות"
 
-#: ../gnome-flashback/libsound-applet/gvc-applet.c:270
+#: ../budgie-helper/libsound-applet/gvc-applet.c:270
 msgid "Output"
 msgstr "פלט"
 
-#: ../gnome-flashback/libsound-applet/gvc-applet.c:274
+#: ../budgie-helper/libsound-applet/gvc-applet.c:274
 msgid "Sound Output Volume"
 msgstr "עצמת פלט שמע"
 
-#: ../gnome-flashback/libsound-applet/gvc-applet.c:280
+#: ../budgie-helper/libsound-applet/gvc-applet.c:280
 msgid "Input"
 msgstr "קלט"
 
-#: ../gnome-flashback/libsound-applet/gvc-applet.c:284
+#: ../budgie-helper/libsound-applet/gvc-applet.c:284
 msgid "Microphone Volume"
 msgstr "עצמת רשמקול"
 
-#: ../gnome-flashback/libsound-applet/gvc-channel-bar.c:536
-#: ../gnome-flashback/libsound-applet/gvc-channel-bar.c:545
+#: ../budgie-helper/libsound-applet/gvc-channel-bar.c:536
+#: ../budgie-helper/libsound-applet/gvc-channel-bar.c:545
 msgctxt "volume"
 msgid "100%"
 msgstr "100%"
 
-#: ../gnome-flashback/libsound-applet/gvc-channel-bar.c:540
+#: ../budgie-helper/libsound-applet/gvc-channel-bar.c:540
 msgctxt "volume"
 msgid "Unamplified"
 msgstr "לא מוגבר"
 
 #. translators:
 #. * The device has been disabled
-#: ../gnome-flashback/libsound-applet/gvc/gvc-mixer-control.c:1830
+#: ../budgie-helper/libsound-applet/gvc/gvc-mixer-control.c:1830
 msgid "Disabled"
 msgstr "מושבת"
 
 #. translators:
 #. * The number of sound outputs on a particular device
-#: ../gnome-flashback/libsound-applet/gvc/gvc-mixer-control.c:1837
+#: ../budgie-helper/libsound-applet/gvc/gvc-mixer-control.c:1837
 #, c-format
 msgid "%u Output"
 msgid_plural "%u Outputs"
@@ -617,30 +617,30 @@ msgstr[1] "%u התקני פלט"
 
 #. translators:
 #. * The number of sound inputs on a particular device
-#: ../gnome-flashback/libsound-applet/gvc/gvc-mixer-control.c:1847
+#: ../budgie-helper/libsound-applet/gvc/gvc-mixer-control.c:1847
 #, c-format
 msgid "%u Input"
 msgid_plural "%u Inputs"
 msgstr[0] "התקן קלט אחד"
 msgstr[1] "%u התקני קלט"
 
-#: ../gnome-flashback/libsound-applet/gvc/gvc-mixer-control.c:2373
+#: ../budgie-helper/libsound-applet/gvc/gvc-mixer-control.c:2373
 msgid "System Sounds"
 msgstr "מערכות שמע"
 
-#: ../gnome-flashback/libsound-applet/gvc-stream-status-icon.c:293
+#: ../budgie-helper/libsound-applet/gvc-stream-status-icon.c:293
 #, c-format
 msgid "Failed to start Sound Preferences: %s"
 msgstr "אירע כשל בהפעלת העדפות שמע: %s"
 
-#: ../gnome-flashback/libsound-applet/gvc-stream-status-icon.c:318
+#: ../budgie-helper/libsound-applet/gvc-stream-status-icon.c:318
 msgid "_Mute"
 msgstr "ה_שתקה"
 
-#: ../gnome-flashback/libsound-applet/gvc-stream-status-icon.c:327
+#: ../budgie-helper/libsound-applet/gvc-stream-status-icon.c:327
 msgid "_Sound Preferences"
 msgstr "העדפות _שמע"
 
-#: ../gnome-flashback/libsound-applet/gvc-stream-status-icon.c:457
+#: ../budgie-helper/libsound-applet/gvc-stream-status-icon.c:457
 msgid "Muted"
 msgstr "מושתק"

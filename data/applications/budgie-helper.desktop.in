@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Budgie Helper
+Exec=budgie-helper
+OnlyShowIn=Budgie;
+NoDisplay=true
+X-GNOME-Autostart-Phase=Desktop
+X-GNOME-Autostart-Notify=true
+X-GNOME-AutoRestart=true

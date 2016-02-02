@@ -1,8 +1,8 @@
 NULL =
 
 xsession_in_in_files = \
-	gnome-flashback-compiz.desktop.in.in \
-	gnome-flashback-metacity.desktop.in.in \
+	budgie-helper-compiz.desktop.in.in \
+	budgie-helper-metacity.desktop.in.in \
 	$(NULL)
 
 xsessiondir = $(datadir)/xsessions

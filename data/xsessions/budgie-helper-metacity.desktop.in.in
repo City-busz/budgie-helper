@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Budgie Helper (Metacity)
+Comment=This session logs you into Budgie Helper with Metacity
+Exec=@libexecdir@/budgie-helper-metacity
+TryExec=metacity
+Type=Application
+DesktopNames=Budgie;GNOME;

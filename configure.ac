@@ -12,13 +12,13 @@ dnl Define bugzilla address
 dnl **************************************************************************
 
 m4_define([gf_bugzilla_url],
-          [https://bugzilla.gnome.org/enter_bug.cgi?product=gnome-flashback])
+          [https://bugzilla.gnome.org/enter_bug.cgi?product=budgie-helper])
 
 dnl **************************************************************************
 dnl Initialize autoconf
 dnl **************************************************************************
 
-AC_INIT([gnome-flashback], [gf_version], [gf_bugzilla_url])
+AC_INIT([budgie-helper], [gf_version], [gf_bugzilla_url])
 AC_CONFIG_HEADERS([config.h])
 AC_CONFIG_MACRO_DIR([m4])
 AC_CONFIG_AUX_DIR([build-aux])
@@ -70,7 +70,7 @@ dnl **************************************************************************
 AM_GNU_GETTEXT([external])
 AM_GNU_GETTEXT_VERSION([0.19.4])
 
-GETTEXT_PACKAGE=gnome-flashback
+GETTEXT_PACKAGE=budgie-helper
 AC_SUBST([GETTEXT_PACKAGE])
 AC_DEFINE_UNQUOTED([GETTEXT_PACKAGE], ["$GETTEXT_PACKAGE"],
                    [Define the gettext package to be used])
@@ -95,7 +95,7 @@ POLKIT_GOBJECT_REQUIRED=0.97
 IBUS_REQUIRED=1.5.2
 UPOWER_GLIB_REQUIRED=0.99.0
 
-PKG_CHECK_MODULES([GNOME_FLASHBACK], [
+PKG_CHECK_MODULES([BUDGIE_HELPER], [
   gtk+-3.0 >= $GTK_REQUIRED
 ])
 
@@ -234,23 +234,23 @@ AC_CONFIG_FILES([
   data/sessions/Makefile
   data/xsessions/Makefile
 
-  gnome-flashback/Makefile
-  gnome-flashback/libautomount-manager/Makefile
-  gnome-flashback/libbluetooth-applet/Makefile
-  gnome-flashback/libcommon/Makefile
-  gnome-flashback/libdesktop-background/Makefile
-  gnome-flashback/libdisplay-config/Makefile
-  gnome-flashback/libend-session-dialog/Makefile
-  gnome-flashback/libidle-monitor/Makefile
-  gnome-flashback/libinput-sources/Makefile
-  gnome-flashback/libpolkit/Makefile
-  gnome-flashback/libpower-applet/Makefile
-  gnome-flashback/libscreencast/Makefile
-  gnome-flashback/libscreenshot/Makefile
-  gnome-flashback/libshell/Makefile
-  gnome-flashback/libsound-applet/Makefile
-  gnome-flashback/libsound-applet/gvc/Makefile
-  gnome-flashback/libworkarounds/Makefile
+  budgie-helper/Makefile
+  budgie-helper/libautomount-manager/Makefile
+  budgie-helper/libbluetooth-applet/Makefile
+  budgie-helper/libcommon/Makefile
+  budgie-helper/libdesktop-background/Makefile
+  budgie-helper/libdisplay-config/Makefile
+  budgie-helper/libend-session-dialog/Makefile
+  budgie-helper/libidle-monitor/Makefile
+  budgie-helper/libinput-sources/Makefile
+  budgie-helper/libpolkit/Makefile
+  budgie-helper/libpower-applet/Makefile
+  budgie-helper/libscreencast/Makefile
+  budgie-helper/libscreenshot/Makefile
+  budgie-helper/libshell/Makefile
+  budgie-helper/libsound-applet/Makefile
+  budgie-helper/libsound-applet/gvc/Makefile
+  budgie-helper/libworkarounds/Makefile
 
   po/Makefile.in
 ])
@@ -262,8 +262,8 @@ dnl Show summary
 dnl **************************************************************************
 
 echo ""
-echo "  GNOME Flashback $VERSION"
-echo "  `echo GNOME Flashback $VERSION | sed "s/./=/g"`"
+echo "  Budgie Helper $VERSION"
+echo "  `echo Budgie Helper $VERSION | sed "s/./=/g"`"
 echo ""
 echo "  srcdir ......................: ${srcdir}"
 echo ""

@@ -1,3 +1,0 @@
-[GNOME Session]
-Name=GNOME Flashback (Metacity)
-RequiredComponents=gnome-flashback-init;gnome-flashback;gnome-panel;metacity;gnome-settings-daemon;nautilus-classic;
