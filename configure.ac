@@ -87,13 +87,8 @@ dnl **************************************************************************
 
 GTK_REQUIRED=3.15.2
 LIBGNOME_DESKTOP_REQUIRED=3.12.0
-CANBERRA_REQUIRED=0.13
 GLIB_REQUIRED=2.44.0
 GSETTINGS_DESKTOP_SCHEMAS_REQUIRED=3.12.0
-POLKIT_AGENT_REQUIRED=0.97
-POLKIT_GOBJECT_REQUIRED=0.97
-IBUS_REQUIRED=1.5.2
-UPOWER_GLIB_REQUIRED=0.99.0
 
 PKG_CHECK_MODULES([BUDGIE_HELPER], [
   gtk+-3.0 >= $GTK_REQUIRED
@@ -109,85 +104,9 @@ PKG_CHECK_MODULES([BLUETOOTH_APPLET], [
   gnome-bluetooth-1.0
 ])
 
-PKG_CHECK_MODULES([COMMON], [
-  gtk+-3.0 >= $GTK_REQUIRED
-  x11
-])
-
 PKG_CHECK_MODULES([DESKTOP_BACKGROUND], [
   gtk+-3.0 >= $GTK_REQUIRED
   gnome-desktop-3.0 >= $LIBGNOME_DESKTOP_REQUIRED
-])
-
-PKG_CHECK_MODULES([DISPLAY_CONFIG], [
-  gtk+-3.0 >= $GTK_REQUIRED
-  glib-2.0 >= $GLIB_REQUIRED
-  gnome-desktop-3.0 >= $LIBGNOME_DESKTOP_REQUIRED
-  upower-glib >= $UPOWER_GLIB_REQUIRED
-  x11
-  xext
-  xrandr
-  x11-xcb
-  xcb-randr
-])
-
-PKG_CHECK_MODULES([END_SESSION_DIALOG], [
-  gtk+-3.0 >= $GTK_REQUIRED
-])
-
-PKG_CHECK_MODULES([IDLE_MONITOR], [
-  gtk+-3.0 >= $GTK_REQUIRED
-  x11
-  xext
-])
-
-PKG_CHECK_MODULES([INPUT_SOURCES], [
-  gnome-desktop-3.0 >= $LIBGNOME_DESKTOP_REQUIRED
-  gtk+-3.0 >= $GTK_REQUIRED
-  ibus-1.0 >= $IBUS_REQUIRED
-  pango
-  xkbfile
-  xkeyboard-config
-])
-
-PKG_CHECK_MODULES([POLKIT], [
-  gtk+-3.0 >= $GTK_REQUIRED
-  glib-2.0 >= $GLIB_REQUIRED
-  polkit-agent-1 >= $POLKIT_AGENT_REQUIRED
-  polkit-gobject-1 >= $POLKIT_GOBJECT_REQUIRED
-])
-
-PKG_CHECK_MODULES([POWER_APPLET], [
-  gtk+-3.0 >= $GTK_REQUIRED
-  upower-glib
-])
-
-PKG_CHECK_MODULES([SCREENCAST], [
-  gtk+-3.0 >= $GTK_REQUIRED
-])
-
-PKG_CHECK_MODULES([SCREENSHOT], [
-  gtk+-3.0 >= $GTK_REQUIRED
-  x11
-  xext
-])
-
-PKG_CHECK_MODULES([SHELL], [
-  gtk+-3.0 >= $GTK_REQUIRED
-  glib-2.0 >= $GLIB_REQUIRED
-  gnome-desktop-3.0 >= $LIBGNOME_DESKTOP_REQUIRED
-])
-
-PKG_CHECK_MODULES([GVC], [
-  gobject-2.0
-  libpulse
-  libpulse-mainloop-glib
-])
-
-PKG_CHECK_MODULES([SOUND_APPLET], [
-  gtk+-3.0 >= $GTK_REQUIRED
-  libcanberra-gtk3 >= $CANBERRA_REQUIRED
-  glib-2.0 >= $GLIB_REQUIRED
 ])
 
 PKG_CHECK_MODULES([WORKAROUNDS], [
@@ -195,28 +114,6 @@ PKG_CHECK_MODULES([WORKAROUNDS], [
   gtk+-3.0 >= $GTK_REQUIRED
   x11
 ])
-
-dnl **************************************************************************
-dnl Define XKB base directory
-dnl **************************************************************************
-
-AC_DEFINE_UNQUOTED([XKB_BASE],
-                   ["`$PKG_CONFIG --variable xkb_base xkeyboard-config`"],
-                   [Define XKB base directory])
-
-dnl **************************************************************************
-dnl Tell gvc submodule to not build introspection
-dnl **************************************************************************
-
-AM_CONDITIONAL([HAVE_INTROSPECTION], [false])
-
-dnl **************************************************************************
-dnl Check if we have XRandR 1.5 or newer
-dnl **************************************************************************
-
-PKG_CHECK_EXISTS([xrandr >= 1.5.0],
-                 AC_DEFINE([HAVE_XRANDR15], [1],
-                           [Define if XRandR is 1.5.0 or newer]))
 
 dnl **************************************************************************
 dnl Process .in files
@@ -228,28 +125,12 @@ AC_CONFIG_FILES([
   data/Makefile
   data/applications/Makefile
   data/autostart/Makefile
-  data/directories/Makefile
-  data/menus/Makefile
   data/schemas/Makefile
-  data/sessions/Makefile
-  data/xsessions/Makefile
 
   budgie-helper/Makefile
   budgie-helper/libautomount-manager/Makefile
   budgie-helper/libbluetooth-applet/Makefile
-  budgie-helper/libcommon/Makefile
   budgie-helper/libdesktop-background/Makefile
-  budgie-helper/libdisplay-config/Makefile
-  budgie-helper/libend-session-dialog/Makefile
-  budgie-helper/libidle-monitor/Makefile
-  budgie-helper/libinput-sources/Makefile
-  budgie-helper/libpolkit/Makefile
-  budgie-helper/libpower-applet/Makefile
-  budgie-helper/libscreencast/Makefile
-  budgie-helper/libscreenshot/Makefile
-  budgie-helper/libshell/Makefile
-  budgie-helper/libsound-applet/Makefile
-  budgie-helper/libsound-applet/gvc/Makefile
   budgie-helper/libworkarounds/Makefile
 
   po/Makefile.in

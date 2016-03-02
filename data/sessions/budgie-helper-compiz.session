@@ -1,3 +1,0 @@
-[GNOME Session]
-Name=Budgie Helper (Compiz)
-RequiredComponents=budgie-helper-init;budgie-helper;gnome-panel;compiz;gnome-settings-daemon;nautilus-classic;

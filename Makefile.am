@@ -29,10 +29,6 @@ MAINTAINERCLEANFILES = \
 	$(srcdir)/po/stamp-po \
 	$(NULL)
 
-EXTRA_DIST = \
-	$(wildcard $(top_srcdir)/modulesets/*.modules) \
-	$(NULL)
-
 GITIGNOREFILES = $(PACKAGE)-\*.tar.{gz,bz2,xz}
 
 -include $(top_srcdir)/git.mk

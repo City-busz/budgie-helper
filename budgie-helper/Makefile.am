@@ -3,18 +3,7 @@ NULL =
 SUBDIRS = \
 	libautomount-manager \
 	libbluetooth-applet \
-	libcommon \
 	libdesktop-background \
-	libdisplay-config \
-	libend-session-dialog \
-	libidle-monitor \
-	libinput-sources \
-	libpolkit \
-	libpower-applet \
-	libscreencast \
-	libscreenshot \
-	libshell \
-	libsound-applet \
 	libworkarounds \
 	$(NULL)
 
@@ -49,16 +38,6 @@ budgie_helper_LDADD = \
 	$(top_builddir)/budgie-helper/libautomount-manager/libautomount-manager.la \
 	$(top_builddir)/budgie-helper/libbluetooth-applet/libbluetooth-applet.la \
 	$(top_builddir)/budgie-helper/libdesktop-background/libdesktop-background.la \
-	$(top_builddir)/budgie-helper/libdisplay-config/libdisplay-config.la \
-	$(top_builddir)/budgie-helper/libend-session-dialog/libend-session-dialog.la \
-	$(top_builddir)/budgie-helper/libidle-monitor/libidle-monitor.la \
-	$(top_builddir)/budgie-helper/libinput-sources/libinput-sources.la \
-	$(top_builddir)/budgie-helper/libpolkit/libpolkit.la \
-	$(top_builddir)/budgie-helper/libpower-applet/libpower-applet.la \
-	$(top_builddir)/budgie-helper/libscreencast/libscreencast.la \
-	$(top_builddir)/budgie-helper/libscreenshot/libscreenshot.la \
-	$(top_builddir)/budgie-helper/libshell/libshell.la \
-	$(top_builddir)/budgie-helper/libsound-applet/libsound-applet.la \
 	$(top_builddir)/budgie-helper/libworkarounds/libworkarounds.la \
 	$(NULL)
 

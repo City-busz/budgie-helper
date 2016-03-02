@@ -2,7 +2,6 @@ NULL =
 
 desktop_in_files = \
 	budgie-helper.desktop.in \
-	budgie-helper-init.desktop.in \
 	$(NULL)
 
 desktopdir = $(datadir)/applications

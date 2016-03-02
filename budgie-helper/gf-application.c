@@ -24,16 +24,6 @@
 #include "libautomount-manager/gsd-automount-manager.h"
 #include "libbluetooth-applet/gf-bluetooth-applet.h"
 #include "libdesktop-background/gf-desktop-background.h"
-#include "libdisplay-config/flashback-display-config.h"
-#include "libend-session-dialog/gf-end-session-dialog.h"
-#include "libidle-monitor/flashback-idle-monitor.h"
-#include "libinput-sources/gf-input-sources.h"
-#include "libpolkit/flashback-polkit.h"
-#include "libpower-applet/gf-power-applet.h"
-#include "libscreencast/gf-screencast.h"
-#include "libscreenshot/gf-screenshot.h"
-#include "libshell/flashback-shell.h"
-#include "libsound-applet/gf-sound-applet.h"
 #include "libworkarounds/gf-workarounds.h"
 
 struct _GfApplication
@@ -47,18 +37,8 @@ struct _GfApplication
   GtkCssProvider         *provider;
 
   GsdAutomountManager    *automount;
-  FlashbackDisplayConfig *config;
-  FlashbackIdleMonitor   *idle_monitor;
-  FlashbackPolkit        *polkit;
-  FlashbackShell         *shell;
   GfBluetoothApplet      *bluetooth;
   GfDesktopBackground    *background;
-  GfEndSessionDialog     *dialog;
-  GfInputSources         *input_sources;
-  GfPowerApplet          *power;
-  GfScreencast           *screencast;
-  GfScreenshot           *screenshot;
-  GfSoundApplet          *sound;
   GfWorkarounds          *workarounds;
 };
 
@@ -139,24 +119,11 @@ settings_changed (GSettings   *settings,
     }
 
   SETTING_CHANGED (automount, "automount-manager", gsd_automount_manager_new)
-  SETTING_CHANGED (config, "display-config", flashback_display_config_new)
-  SETTING_CHANGED (idle_monitor, "idle-monitor", flashback_idle_monitor_new)
-  SETTING_CHANGED (polkit, "polkit", flashback_polkit_new)
-  SETTING_CHANGED (shell, "shell", flashback_shell_new)
-  SETTING_CHANGED (bluetooth, "bluetooth-applet", gf_bluetooth_applet_new)
   SETTING_CHANGED (background, "desktop-background", gf_desktop_background_new)
-  SETTING_CHANGED (dialog, "end-session-dialog", gf_end_session_dialog_new)
-  SETTING_CHANGED (input_sources, "input-sources", gf_input_sources_new)
-  SETTING_CHANGED (power, "power-applet", gf_power_applet_new)
-  SETTING_CHANGED (screencast, "screencast", gf_screencast_new)
-  SETTING_CHANGED (screenshot, "screenshot", gf_screenshot_new)
-  SETTING_CHANGED (sound, "sound-applet", gf_sound_applet_new)
   SETTING_CHANGED (workarounds, "workarounds", gf_workarounds_new)
 
 #undef SETTING_CHANGED
 
-  if (application->shell)
-    flashback_shell_set_display_config (application->shell, application->config);
 }
 
 static void
@@ -168,29 +135,13 @@ gf_application_dispose (GObject *object)
   application = GF_APPLICATION (object);
   screen = gdk_screen_get_default ();
 
-  if (application->bus_name)
-    {
-      g_bus_unown_name (application->bus_name);
-      application->bus_name = 0;
-    }
-
   g_clear_object (&application->settings);
 
   remove_style_provider (application, screen);
 
   g_clear_object (&application->automount);
-  g_clear_object (&application->config);
-  g_clear_object (&application->idle_monitor);
-  g_clear_object (&application->polkit);
-  g_clear_object (&application->shell);
   g_clear_object (&application->bluetooth);
   g_clear_object (&application->background);
-  g_clear_object (&application->dialog);
-  g_clear_object (&application->input_sources);
-  g_clear_object (&application->power);
-  g_clear_object (&application->screencast);
-  g_clear_object (&application->screenshot);
-  g_clear_object (&application->sound);
   g_clear_object (&application->workarounds);
 
   G_OBJECT_CLASS (gf_application_parent_class)->dispose (object);
@@ -211,12 +162,6 @@ gf_application_init (GfApplication *application)
 
   settings_changed (application->settings, NULL, application);
   theme_changed (settings, NULL, application);
-
-  application->bus_name = g_bus_own_name (G_BUS_TYPE_SESSION,
-                                          "org.gnome.Shell",
-                                          G_BUS_NAME_OWNER_FLAGS_ALLOW_REPLACEMENT |
-                                          G_BUS_NAME_OWNER_FLAGS_REPLACE,
-                                          NULL, NULL, NULL, NULL, NULL);
 }
 
 static void

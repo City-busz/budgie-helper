@@ -1,3 +1,0 @@
-[GNOME Session]
-Name=Budgie Helper (Metacity)
-RequiredComponents=budgie-helper-init;budgie-helper;gnome-panel;metacity;gnome-settings-daemon;nautilus-classic;

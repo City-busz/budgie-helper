@@ -5,7 +5,7 @@ noinst_LTLIBRARIES = \
 	$(NULL)
 
 libworkarounds_la_CFLAGS = \
-	$(IDLE_MONITOR_CFLAGS) \
+	$(WORKAROUNDS_CFLAGS) \
 	$(WARN_CFLAGS) \
 	$(AM_CFLAGS) \
 	-I$(top_builddir)/budgie-helper/libworkarounds \
@@ -22,7 +22,7 @@ libworkarounds_la_LDFLAGS = \
 	$(NULL)
 
 libworkarounds_la_LIBADD = \
-	$(IDLE_MONITOR_LIBS) \
+	$(WORKAROUNDS_LIBS) \
 	$(NULL)
 
 -include $(top_srcdir)/git.mk

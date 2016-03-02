@@ -1,7 +1,6 @@
 NULL =
 
 autostart_in_files = \
-	budgie-helper-nm-applet.desktop.in \
 	budgie-helper-screensaver.desktop.in \
 	$(NULL)
 
