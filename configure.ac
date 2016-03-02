@@ -123,7 +123,6 @@ AC_CONFIG_FILES([
   Makefile
 
   data/Makefile
-  data/applications/Makefile
   data/autostart/Makefile
   data/schemas/Makefile
 

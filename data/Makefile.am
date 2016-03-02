@@ -1,7 +1,6 @@
 NULL =
 
 SUBDIRS = \
-	applications \
 	autostart \
 	schemas \
 	$(NULL)
