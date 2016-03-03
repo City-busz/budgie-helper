@@ -119,6 +119,7 @@ settings_changed (GSettings   *settings,
     }
 
   SETTING_CHANGED (automount, "automount-manager", gsd_automount_manager_new)
+  SETTING_CHANGED (bluetooth, "bluetooth-applet", gf_bluetooth_applet_new)
   SETTING_CHANGED (background, "desktop-background", gf_desktop_background_new)
   SETTING_CHANGED (workarounds, "workarounds", gf_workarounds_new)
 
