@@ -2,7 +2,7 @@
 # Please keep this file sorted alphabetically.
 data/autostart/budgie-helper.desktop.in
 data/autostart/budgie-helper-screensaver.desktop.in
-data/schemas/com.solus-project.budgie-wm.gschema.xml
+data/schemas/com.solus-project.budgie-helper.gschema.xml
 budgie-helper/gf-main.c
 budgie-helper/libautomount-manager/gsd-automount-manager.c
 budgie-helper/libautomount-manager/gsd-autorun.c

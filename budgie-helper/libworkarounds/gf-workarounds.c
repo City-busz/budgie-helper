@@ -728,7 +728,7 @@ gf_workarounds_init (GfWorkarounds *workarounds)
 {
   x11_init (workarounds);
 
-  workarounds->g_settings = g_settings_new ("org.gnome.budgie-helper.workarounds");
+  workarounds->g_settings = g_settings_new ("com.solus-project.budgie-helper.workarounds");
   workarounds->gtk_settings = gtk_settings_get_default ();
 
   g_signal_connect (workarounds->g_settings, "changed",

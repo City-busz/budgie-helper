@@ -1,5 +1,5 @@
 <schemalist gettext-domain="budgie-helper">
-  <schema id="org.gnome.budgie-helper" path="/com.solus-project.budgie-wm/">
+  <schema id="com.solus-project.budgie-helper" path="/com/solus-project/budgie-helper/">
 
     <key name="automount-manager" type="b">
       <default>true</default>
@@ -25,11 +25,11 @@
       <description>If set to true, then Budgie Helper application will use workarounds to fix bugs.</description>
     </key>
 
-    <child name="desktop-background" schema="org.gnome.budgie-helper.desktop-background"/>
-    <child name="workarounds" schema="org.gnome.budgie-helper.workarounds"/>
+    <child name="desktop-background" schema="com.solus-project.budgie-helper.desktop-background"/>
+    <child name="workarounds" schema="com.solus-project.budgie-helper.workarounds"/>
   </schema>
 
-  <schema id="org.gnome.budgie-helper.desktop-background" path="/com.solus-project.budgie-wm/desktop-background/">
+  <schema id="com.solus-project.budgie-helper.desktop-background" path="/com/solus-project/budgie-helper/desktop-background/">
 
     <key name="fade" type="b">
       <default>true</default>
@@ -39,7 +39,7 @@
 
   </schema>
 
-  <schema id="org.gnome.budgie-helper.workarounds" path="/com.solus-project.budgie-wm/workarounds/">
+  <schema id="com.solus-project.budgie-helper.workarounds" path="/com/solus-project/budgie-helper/workarounds/">
 
     <key name="fix-app-menu" type="b">
       <default>true</default>

@@ -24,7 +24,7 @@
 #include "gf-desktop-background.h"
 
 #define DESKTOP_BG "org.gnome.desktop.background"
-#define BUDGIE_HELPER_BG "org.gnome.budgie-helper.desktop-background"
+#define BUDGIE_HELPER_BG "com.solus-project.budgie-helper.desktop-background"
 
 struct _GfDesktopBackground
 {

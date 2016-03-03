@@ -153,7 +153,7 @@ gf_application_init (GfApplication *application)
 {
   GtkSettings *settings;
 
-  application->settings = g_settings_new ("org.gnome.budgie-helper");
+  application->settings = g_settings_new ("com.solus-project.budgie-helper");
   settings = gtk_settings_get_default ();
 
   g_signal_connect (application->settings, "changed",

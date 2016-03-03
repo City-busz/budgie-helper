@@ -1,7 +1,7 @@
 NULL =
 
 gsettings_SCHEMAS = \
-	com.solus-project.budgie-wm.gschema.xml \
+	com.solus-project.budgie-helper.gschema.xml \
 	$(NULL)
 
 @GSETTINGS_RULES@
