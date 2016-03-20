@@ -59,43 +59,6 @@ remove_style_provider (GfApplication *application,
 }
 
 static void
-theme_changed (GtkSettings *settings,
-               GParamSpec  *pspec,
-               gpointer     user_data)
-{
-  GfApplication *application;
-  GdkScreen *screen;
-  gchar *theme;
-
-  application = GF_APPLICATION (user_data);
-  screen = gdk_screen_get_default ();
-
-  g_object_get (settings, "gtk-theme-name", &theme, NULL);
-
-  remove_style_provider (application, screen);
-
-  if (g_strcmp0 (theme, "Adwaita") == 0 || g_strcmp0 (theme, "HighContrast") == 0)
-    {
-      gchar *resource;
-      GtkStyleProvider *provider;
-      gint priority;
-
-      application->provider = gtk_css_provider_new ();
-
-      resource = g_strdup_printf ("/org/gnome/budgie-helper/%s.css", theme);
-      gtk_css_provider_load_from_resource (application->provider, resource);
-      g_free (resource);
-
-      provider = GTK_STYLE_PROVIDER (application->provider);
-      priority = GTK_STYLE_PROVIDER_PRIORITY_APPLICATION;
-
-      gtk_style_context_add_provider_for_screen (screen, provider, priority);
-    }
-
-  g_free (theme);
-}
-
-static void
 settings_changed (GSettings   *settings,
                   const gchar *key,
                   gpointer     user_data)
@@ -158,11 +121,8 @@ gf_application_init (GfApplication *application)
 
   g_signal_connect (application->settings, "changed",
                     G_CALLBACK (settings_changed), application);
-  g_signal_connect (settings, "notify::gtk-theme-name",
-                    G_CALLBACK (theme_changed), application);
 
   settings_changed (application->settings, NULL, application);
-  theme_changed (settings, NULL, application);
 }
 
 static void
