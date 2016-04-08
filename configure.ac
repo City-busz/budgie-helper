@@ -99,11 +99,6 @@ PKG_CHECK_MODULES([AUTOMOUNT_MANAGER], [
   gsettings-desktop-schemas >= $GSETTINGS_DESKTOP_SCHEMAS_REQUIRED
 ])
 
-PKG_CHECK_MODULES([BLUETOOTH_APPLET], [
-  gtk+-3.0 >= $GTK_REQUIRED
-  gnome-bluetooth-1.0
-])
-
 PKG_CHECK_MODULES([DESKTOP_BACKGROUND], [
   gtk+-3.0 >= $GTK_REQUIRED
   gnome-desktop-3.0 >= $LIBGNOME_DESKTOP_REQUIRED
@@ -128,7 +123,6 @@ AC_CONFIG_FILES([
 
   budgie-helper/Makefile
   budgie-helper/libautomount-manager/Makefile
-  budgie-helper/libbluetooth-applet/Makefile
   budgie-helper/libdesktop-background/Makefile
   budgie-helper/libworkarounds/Makefile
 

@@ -22,7 +22,6 @@
 
 #include "gf-application.h"
 #include "libautomount-manager/gsd-automount-manager.h"
-#include "libbluetooth-applet/gf-bluetooth-applet.h"
 #include "libdesktop-background/gf-desktop-background.h"
 #include "libworkarounds/gf-workarounds.h"
 
@@ -37,7 +36,6 @@ struct _GfApplication
   GtkCssProvider         *provider;
 
   GsdAutomountManager    *automount;
-  GfBluetoothApplet      *bluetooth;
   GfDesktopBackground    *background;
   GfWorkarounds          *workarounds;
 };
@@ -82,7 +80,6 @@ settings_changed (GSettings   *settings,
     }
 
   SETTING_CHANGED (automount, "automount-manager", gsd_automount_manager_new)
-  SETTING_CHANGED (bluetooth, "bluetooth-applet", gf_bluetooth_applet_new)
   SETTING_CHANGED (background, "desktop-background", gf_desktop_background_new)
   SETTING_CHANGED (workarounds, "workarounds", gf_workarounds_new)
 
@@ -104,7 +101,6 @@ gf_application_dispose (GObject *object)
   remove_style_provider (application, screen);
 
   g_clear_object (&application->automount);
-  g_clear_object (&application->bluetooth);
   g_clear_object (&application->background);
   g_clear_object (&application->workarounds);
 

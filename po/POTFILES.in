@@ -6,4 +6,3 @@ data/schemas/com.solus-project.budgie-helper.gschema.xml
 budgie-helper/gf-main.c
 budgie-helper/libautomount-manager/gsd-automount-manager.c
 budgie-helper/libautomount-manager/gsd-autorun.c
-budgie-helper/libbluetooth-applet/gf-bluetooth-applet.c

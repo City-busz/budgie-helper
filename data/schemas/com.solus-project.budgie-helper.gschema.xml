@@ -7,12 +7,6 @@
       <description>If set to true, then Budgie Helper application will be used to automount removable media.</description>
     </key>
 
-    <key name="bluetooth-applet" type="b">
-      <default>true</default>
-      <summary>Bluetooth applet</summary>
-      <description>If set to true, then Budgie Helper application will be used to show a Bluetooth applet.</description>
-    </key>
-
     <key name="desktop-background" type="b">
       <default>true</default>
       <summary>Desktop background</summary>

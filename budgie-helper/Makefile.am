@@ -2,7 +2,6 @@ NULL =
 
 SUBDIRS = \
 	libautomount-manager \
-	libbluetooth-applet \
 	libdesktop-background \
 	libworkarounds \
 	$(NULL)
@@ -35,7 +34,6 @@ budgie_helper_LDFLAGS = \
 budgie_helper_LDADD = \
 	$(BUDGIE_HELPER_LIBS) \
 	$(top_builddir)/budgie-helper/libautomount-manager/libautomount-manager.la \
-	$(top_builddir)/budgie-helper/libbluetooth-applet/libbluetooth-applet.la \
 	$(top_builddir)/budgie-helper/libdesktop-background/libdesktop-background.la \
 	$(top_builddir)/budgie-helper/libworkarounds/libworkarounds.la \
 	$(NULL)
