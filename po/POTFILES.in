@@ -1,7 +1,6 @@
 # List of source files containing translatable strings.
 # Please keep this file sorted alphabetically.
 data/autostart/budgie-helper.desktop.in
-data/autostart/budgie-helper-screensaver.desktop.in
 data/schemas/com.solus-project.budgie-helper.gschema.xml
 budgie-helper/gf-main.c
 budgie-helper/libautomount-manager/gsd-automount-manager.c
